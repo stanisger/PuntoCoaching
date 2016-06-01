@@ -1242,6 +1242,71 @@ footer {
             font-weight: 400;
             padding-top: 18px; }
 
+#eyecatcherIn {
+  clear: both;
+  height: 264px; }
+  #eyecatcherIn .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherIn .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherIn .content > img {
+      width: 454px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 50%;
+      top: -33%;
+      z-index: -2; }
+    #eyecatcherIn .content h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 16px; }
+    #eyecatcherIn .content h1 {
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 600; }
+    #eyecatcherIn .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 300;
+      width: 100%;
+      margin-bottom: 1px; }
+    #eyecatcherIn .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 31px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
 /*
   Flaticon icon font: Flaticon
   Creation date: 24/05/2016 21:08
@@ -1264,25 +1329,61 @@ footer {
 .flaticon-arrows:before {
   content: "\f100"; }
 
-.flaticon-back:before {
+.flaticon-arrows-1:before {
   content: "\f101"; }
 
-.flaticon-cancel:before {
+.flaticon-arrows-2:before {
   content: "\f102"; }
 
-.flaticon-circle:before {
+.flaticon-back:before {
   content: "\f103"; }
 
-.flaticon-down-arrow:before {
+.flaticon-bars:before {
   content: "\f104"; }
 
-.flaticon-interface:before {
+.flaticon-business:before {
   content: "\f105"; }
 
-.flaticon-new-email-outline:before {
+.flaticon-business-1:before {
   content: "\f106"; }
 
-.flaticon-next:before {
+.flaticon-clock:before {
   content: "\f107"; }
+
+.flaticon-clock-circular-outline:before {
+  content: "\f108"; }
+
+.flaticon-close-button:before {
+  content: "\f109"; }
+
+.flaticon-dialogue-balloon:before {
+  content: "\f10a"; }
+
+.flaticon-down-arrow:before {
+  content: "\f10b"; }
+
+.flaticon-facebook-logo-button:before {
+  content: "\f10c"; }
+
+.flaticon-interface:before {
+  content: "\f10d"; }
+
+.flaticon-location-pin:before {
+  content: "\f10e"; }
+
+.flaticon-multiple-users-silhouette:before {
+  content: "\f10f"; }
+
+.flaticon-next:before {
+  content: "\f110"; }
+
+.flaticon-patent:before {
+  content: "\f111"; }
+
+.flaticon-up-arrow:before {
+  content: "\f112"; }
+
+.flaticon-verified-checkbox-symbol:before {
+  content: "\f113"; }
 
 /*# sourceMappingURL=style.css.map */
