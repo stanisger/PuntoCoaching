@@ -1,4 +1,4 @@
-#eyecatcherIn{
+#eyecatcherInEmpresa{
 	clear: both;
 	height: 264px;
 	.content{
@@ -25,11 +25,11 @@
 
 		}
 		>img{
-			width: 454px;
+		    width: 684px;
 		    position: absolute;
 		    transform: translatex(-45%);
 		    left: 50%;
-		    top: -33%;
+		    top: -27%;
 		    z-index: -2;
 		}
 		h2{
@@ -68,7 +68,7 @@
 	}
 }
 
-#Info{
+#InfoEmpresa{
 background: $purple3;
 	>.content{
 		@include flexFlow;
@@ -119,60 +119,82 @@ background: $purple3;
 	}
 }
 
-#resume{
-	padding: 36px 0 0;
+
+#resumeEmpresa{
+    padding: 36px 0 0;
 	background: #f6f6f6;
 	border-bottom: 3px solid $purple1;
-	.content{
-		article{
-			padding: 0 18px 18px;
-			img{
-				width: 100%;
-			}
-			h2{
-				font-size: 24px;
-				font-weight: $light;
-				color: $purple2;
-				margin-bottom: 27px;
-							text-align: center;
-				strong{
-					font-weight: $semiBold;
-				}
-			}
-			h3{
-				font-size: 18px;
-				font-weight: $light;
-				margin-bottom: 27px;
-				color: $purple2;
-			}
-			p{
-				font-size: 14px;
-				font-weight: $normal;
-				color: $negro;
-				margin-bottom: 27px;
-				line-height: 20px;
-			}
-			ul {
-				    list-style: none;
-				    margin-bottom: 36px;
-				}
+    article:nth-child(1){
+    	text-align: center;
+    	color: $purple2;
+    	margin-bottom: 32px;
+    	h3{
+    		font-size: 12px;
+    		font-weight: 500;
+    		font-style: italic;
+    		color: #878787;
+    		margin-bottom: 27px;
+    	}
+    	h2{
+    		font-size: 24px;
+    		font-weight: 200;
+    		font-family: $font2;
+    		margin-bottom: 27px;
 
-				li { 
-				    padding-left: 1em; 
-				    text-indent: -.7em;
-				    margin-bottom: 10px;
-				}
+    		strong{
+    			font-weight: 600;
+    		}
+    	}
+    }
 
-				li:before {
-				    content: "■  ";
-				    color: $purple2; /* or whatever color you prefer */
-				}
-				li:after {
-					margin-left: 9px;
-				}
+    article:nth-child(2){
+    	width: 100%;
+    	overflow-x: auto;
+    	padding-bottom: 27px;
+      .contentAside{ 
+      	padding: 0 0 0 18px;
+    	@include flexFlow;
+    	overflow-y: scroll;
+    	width: 840px;
+    	aside{
+    		position: relative;
+    		width: 33%;
+    		padding: 0 18px 0 0;
+    		img{
+    			width: 100%;
+    			margin-bottom: 33px;
+    		}
+    		h3{
+    			font-size: 19px;
+    			font-weight: 100;
+    			line-height: 26px;
+    			margin-bottom: 33px;
+    			color: $purple2;
+    		}
+    		p{
+    			font-weight: 100;
+    			color: $negro;
+    			font-size: 14px;
+    			line-height: 25px;
+    			margin-bottom: 27px;
+    			button{
+    				padding: 4px 24px;
+    			}
+    		}
+    		span{
+    			position: absolute;
+    			background: $purple2;
+    			color: $blanco;
+    			text-align: center;
+    			top: 122px;
+               left: 12px;
+    			padding: 18px ;
+    			font-size: 11px;
+    			font-family: $font2;
+    			font-weight: 600;
+    		}
+    	}
+      }	
+    }
 
-		}
-
-	}
 }
-
