@@ -1008,13 +1008,13 @@ footer {
       font-family: "Raleway";
       font-size: 24px;
       font-weight: 300;
-      color: #21167d;
+      color: #2b1f6d;
       margin-bottom: 24px;
       width: 100%; }
       #secondSection .content article:nth-child(1) h2 strong {
         font-weight: 700; }
     #secondSection .content article:nth-child(1) h4 {
-      color: #21167d;
+      color: #2b1f6d;
       line-height: 28px;
       font-weight: 300;
       font-size: 18px;
@@ -1195,10 +1195,10 @@ footer {
       width: auto;
       overflow-x: auto;
       display: inherit; }
-      #fourSection .content article:nth-child(2) .contetElements {
+      #fourSection .content article:nth-child(2) .contentElements {
         display: inline-block;
         float: left; }
-        #fourSection .content article:nth-child(2) .contetElements .element {
+        #fourSection .content article:nth-child(2) .contentElements .element {
           width: auto;
           border: 1px solid #242468;
           padding: 9px 18px 18px;
@@ -1211,31 +1211,31 @@ footer {
           display: -webkit-flex;
           display: -ms-flexbox;
           display: flex; }
-          #fourSection .content article:nth-child(2) .contetElements .element i {
+          #fourSection .content article:nth-child(2) .contentElements .element i {
             display: block;
             width: 100%;
             text-align: right;
             font-size: 17px;
             color: #242468;
             padding-bottom: 9px; }
-          #fourSection .content article:nth-child(2) .contetElements .element img {
+          #fourSection .content article:nth-child(2) .contentElements .element img {
             width: 30%;
             width: 52px;
             height: 52px;
             border-radius: 50%; }
-          #fourSection .content article:nth-child(2) .contetElements .element .text {
+          #fourSection .content article:nth-child(2) .contentElements .element .text {
             width: 70%;
             padding: 9px; }
-            #fourSection .content article:nth-child(2) .contetElements .element .text h3 {
+            #fourSection .content article:nth-child(2) .contentElements .element .text h3 {
               font-size: 16px;
               font-weight: 600;
-              color: #242468;
+              color: #2b1f6d;
               font-family: "Raleway"; }
-            #fourSection .content article:nth-child(2) .contetElements .element .text h4 {
+            #fourSection .content article:nth-child(2) .contentElements .element .text h4 {
               font-color: #000000;
               font-size: 12px;
               font-weight: 400; }
-          #fourSection .content article:nth-child(2) .contetElements .element p {
+          #fourSection .content article:nth-child(2) .contentElements .element p {
             font-color: #000000;
             font-size: 14px;
             font-style: italic;
@@ -1367,7 +1367,8 @@ footer {
       font-size: 18px;
       font-weight: 300;
       margin-bottom: 27px;
-      color: #242468; }
+      color: #242468;
+      line-height: 27px; }
     #resume .content article p {
       font-size: 14px;
       font-weight: 400;
@@ -1538,10 +1539,10 @@ footer {
           margin-bottom: 33px; }
         #resumeEmpresa article:nth-child(2) .contentAside aside h3 {
           font-size: 19px;
-          font-weight: 100;
+          font-weight: 200;
           line-height: 26px;
           margin-bottom: 33px;
-          color: #242468; }
+          color: #2b1f6d; }
         #resumeEmpresa article:nth-child(2) .contentAside aside p {
           font-weight: 100;
           color: #000000;
@@ -1552,7 +1553,7 @@ footer {
             padding: 4px 24px; }
         #resumeEmpresa article:nth-child(2) .contentAside aside span {
           position: absolute;
-          background: #242468;
+          background: #2b1f6d;
           color: #ffffff;
           text-align: center;
           top: 122px;
@@ -1561,6 +1562,352 @@ footer {
           font-size: 11px;
           font-family: "Raleway";
           font-weight: 600; }
+
+#eyecatcherCursos {
+  clear: both;
+  height: 264px; }
+  #eyecatcherCursos .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherCursos .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherCursos .content > img {
+      width: 964px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 70%;
+      top: -3%;
+      z-index: -2; }
+    #eyecatcherCursos .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 100;
+      width: 100%;
+      margin-bottom: 1px;
+      margin-top: 23px; }
+    #eyecatcherCursos .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 69px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+#titleIn .content {
+  background: #190c3c;
+  text-align: center; }
+  #titleIn .content h1 {
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: 100;
+    color: #ffffff;
+    padding: 36px 0; }
+    #titleIn .content h1 strong {
+      font-weight: 600; }
+
+#calendarIn {
+  height: 404px;
+  border-bottom: 4px solid #62269e;
+  position: relative; }
+  #calendarIn .degradate {
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+10,0+10,0.88+78 */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e0ffffff',GradientType=0 );
+    /* IE6-9 */ }
+  #calendarIn > .content {
+    overflow: auto;
+    height: 404px; }
+    #calendarIn > .content article {
+      padding: 18px;
+      width: 100%;
+      border-bottom: 1px solid #a9a9a9; }
+      #calendarIn > .content article .content {
+        width: 100%;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        #calendarIn > .content article .content span {
+          width: 50%;
+          color: #999;
+          font-size: 11px;
+          font-family: "Raleway";
+          font-weight: 600; }
+        #calendarIn > .content article .content span:nth-child(2) {
+          text-align: right; }
+          #calendarIn > .content article .content span:nth-child(2) a {
+            color: #999;
+            transition: color .4s; }
+            #calendarIn > .content article .content span:nth-child(2) a:hover {
+              color: #190c3c; }
+        #calendarIn > .content article .content h2 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #2b1f6d;
+          padding: 12px 0; }
+        #calendarIn > .content article .content .info {
+          width: 100%;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; }
+          #calendarIn > .content article .content .info .dates {
+            width: 33%;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; }
+            #calendarIn > .content article .content .info .dates i {
+              width: 25%;
+              color: rgba(43, 31, 109, 0.7);
+              font-size: 20px; }
+            #calendarIn > .content article .content .info .dates p {
+              width: 75%;
+              font-size: 14px;
+              font-weight: 500;
+              color: #444;
+              line-height: 17px; }
+          #calendarIn > .content article .content .info .dates:nth-child(2) p, #calendarIn > .content article .content .info .dates:nth-child(3) p {
+            padding: 9px 0 0; }
+    #calendarIn > .content article:nth-child(odd) {
+      background: #f4f4f4; }
+
+#eyecatcherCoach {
+  clear: both;
+  height: 264px; }
+  #eyecatcherCoach .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherCoach .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherCoach .content > img {
+      width: 844px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 93%;
+      top: -5%;
+      z-index: -2; }
+    #eyecatcherCoach .content h1 {
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 600; }
+    #eyecatcherCoach .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 100;
+      width: 100%;
+      margin-bottom: 6px; }
+    #eyecatcherCoach .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 58px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+#resumeCoach {
+  padding: 36px 0 0;
+  background: #f6f6f6; }
+  #resumeCoach .content article:nth-child(1) {
+    padding: 0 18px 0; }
+    #resumeCoach .content article:nth-child(1) img {
+      width: 100%; }
+    #resumeCoach .content article:nth-child(1) h2 {
+      font-size: 24px;
+      font-weight: 300;
+      color: #2b1f6d;
+      margin-bottom: 27px;
+      text-align: center; }
+      #resumeCoach .content article:nth-child(1) h2 strong {
+        font-weight: 600; }
+    #resumeCoach .content article:nth-child(1) h3 {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 27px;
+      color: #2b1f6d;
+      line-height: 27px; }
+    #resumeCoach .content article:nth-child(1) p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 27px;
+      line-height: 20px; }
+    #resumeCoach .content article:nth-child(1) ul {
+      list-style: none;
+      margin-bottom: 36px; }
+    #resumeCoach .content article:nth-child(1) li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      margin-bottom: 10px; }
+    #resumeCoach .content article:nth-child(1) li:before {
+      content: "■  ";
+      color: #242468;
+      /* or whatever color you prefer */ }
+    #resumeCoach .content article:nth-child(1) li:after {
+      margin-left: 9px; }
+  #resumeCoach .content article:nth-child(2) {
+    padding: 0 18px 18px;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #resumeCoach .content article:nth-child(2) .ifongrafia {
+      width: 50%;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      #resumeCoach .content article:nth-child(2) .ifongrafia i {
+        width: 20%;
+        color: #62269e;
+        font-size: 33px; }
+      #resumeCoach .content article:nth-child(2) .ifongrafia p {
+        width: 80%;
+        font-weight: 700;
+        font-family: "Raleway";
+        font-size: 13px;
+        color: #2b1f6d;
+        padding: 15px 9px 0; }
+
+#modulos {
+  padding: 18px; }
+  #modulos article:nth-child(1) {
+    position: relative;
+    height: 230px;
+    overflow: hidden; }
+    #modulos article:nth-child(1) img {
+      position: absolute;
+      width: 348px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 33%; }
+  #modulos article:nth-child(2) {
+    margin: 18px 0; }
+    #modulos article:nth-child(2) h2 {
+      color: #2b1f6d;
+      font-family: "Raleway";
+      font-size: 24px;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 27px; }
+    #modulos article:nth-child(2) > div {
+      margin-bottom: 29px;
+      width: 100%; }
+      #modulos article:nth-child(2) > div div:nth-child(1) ul {
+        width: 100%;
+        height: 37px; }
+        #modulos article:nth-child(2) > div div:nth-child(1) ul li {
+          width: 63px;
+          margin-right: 15px;
+          border-bottom: 1px solid white; }
+          #modulos article:nth-child(2) > div div:nth-child(1) ul li a {
+            background: #190c3c;
+            border: 1px solid #190c3c;
+            transition: background .4s;
+            font-size: 26px;
+            font-weight: 600;
+            font-family: "Raleway";
+            color: rgba(255, 255, 255, 0.8); }
+          #modulos article:nth-child(2) > div div:nth-child(1) ul li .active {
+            border: 1px solid #e5e5e5;
+            background: #ffffff;
+            color: rgba(36, 36, 104, 0.4);
+            border-bottom: 1px solid white; }
+      #modulos article:nth-child(2) > div .contentTab {
+        border: 1px solid #e5e5e5;
+        padding: 24px 12px 36px; }
+        #modulos article:nth-child(2) > div .contentTab .content h3 {
+          font-family: "Raleway";
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 18px;
+          line-height: 32px; }
+        #modulos article:nth-child(2) > div .contentTab .content p {
+          font-size: 16px;
+          color: #000000;
+          line-height: 23px; }
 
 /*
   Flaticon icon font: Flaticon
