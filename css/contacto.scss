@@ -1,0 +1,158 @@
+#eyecatcher{
+	.three{
+		
+
+		img{
+			 width: 706px;
+    		transform: translatex(-44%);
+    		top: -48px;
+
+		}
+	}
+}
+
+
+
+.contactFirst{
+			background: white;
+			color: black;
+			margin-top: 30px;
+			margin-left: 10px;
+
+			ul{
+				width: 90%;
+	    		margin: auto;
+				
+				li:nth-child(3){
+					strong{
+						text-transform: inherit;
+					}
+				}
+
+				li{
+					margin-bottom: 20px;
+					strong{
+						color:$purple2;
+						font-size:15px;
+						line-height: 40px;
+						font-family: "Raleway";
+						text-transform: uppercase;
+						letter-spacing: 1px;
+					}
+					span{
+						color:grey;
+						font-weight: 300;
+						line-height: 12px;
+					}
+
+					i.flaticon-location-pin {
+						font-size: 23px !important;
+						color:$purple2;
+						float: left;
+						margin:5px 20px 28px 0px;
+					}
+				}
+			}	
+	}
+
+.contactForm{
+		width: 100%;
+		margin-top: 40px;
+
+		h2{
+			background:$purple3;
+			color:white;
+			text-transform: uppercase;
+			font-size: 18px;
+			padding: 27px 0px;
+			text-align:center;
+			letter-spacing: 1px;
+			
+		}
+
+		form{
+			margin-top: 20px;
+			label{
+				font-size: 14px;
+    			color: #666;
+    			font-weight: 600;
+    			letter-spacing: 0.3px;
+			}
+			label:active{
+				color:#666 !important;
+			}
+
+			textarea.materialize-textarea{
+				font-size: 30px !important;
+			}
+			
+			input[type=text]{
+				font-size: 12px;
+				margin-bottom:0;
+				line-height: 10px;
+				padding: 10px 0 0 0;
+			}
+
+			.row{
+			div{
+				margin-top:20px;
+			}
+			div:nth-child(4){
+
+				.select-wrapper {
+					margin-top: 0px;
+					span.caret {
+				    top: 15px !important;
+					}
+				}
+				input[type=text]{
+					font-size: 14px;
+					color: #666;
+    				font-weight: 600;
+    				letter-spacing: 0.3px;
+    				padding-bottom:20px;
+    				padding-top:0;
+				}
+
+			}
+
+			div:nth-child(5){
+				margin-bottom: 20px;
+			}
+		}
+	}
+	
+}
+
+
+.btn-contact{
+		button{
+		font-family: 'Raleway';
+		width: 100%;
+		padding: 15px 0px;
+		font-size:14px;
+		border-radius: 40px;
+
+		}
+	
+}
+
+section.map{
+	position:relative;
+}
+
+.white{
+	background-color:white;
+	height:50px;
+	border:1px solid black;
+	position:absolute;
+	z-index:9999999;
+}
+
+iframe{
+	position:relative;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+    display: none !important;
+}
