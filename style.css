@@ -1087,7 +1087,7 @@ footer {
           vertical-align: middle;
           margin-left: 6px; }
   #firstSection > :nth-child(1) {
-    background: #2d1e5a; }
+    background: #242468; }
   #firstSection > :nth-child(2) {
     background: #190c3c; }
 
@@ -1116,13 +1116,13 @@ footer {
       font-family: "Raleway";
       font-size: 24px;
       font-weight: 300;
-      color: #21167d;
+      color: #2b1f6d;
       margin-bottom: 24px;
       width: 100%; }
       #secondSection .content article:nth-child(1) h2 strong {
         font-weight: 700; }
     #secondSection .content article:nth-child(1) h4 {
-      color: #21167d;
+      color: #2b1f6d;
       line-height: 28px;
       font-weight: 300;
       font-size: 18px;
@@ -1150,7 +1150,7 @@ footer {
     #secondSection .content article:nth-child(2) > div:nth-child(1) {
       padding: 0 32px;
       margin-bottom: 21px;
-      color: #2d1e5a; }
+      color: #242468; }
       #secondSection .content article:nth-child(2) > div:nth-child(1) i {
         font-size: 15px; }
       #secondSection .content article:nth-child(2) > div:nth-child(1) h4 {
@@ -1198,7 +1198,7 @@ footer {
         #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover {
           border-top: 1px solid rgba(255, 255, 255, 0.5);
           border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-          background: #2d1e5a;
+          background: #242468;
           color: #ffffff; }
           #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover .head {
             border-right: 1px solid rgba(255, 255, 255, 0.2); }
@@ -1290,12 +1290,12 @@ footer {
       #fourSection .content article:nth-child(1) h3 {
         font-family: "Raleway";
         font-weight: 600;
-        color: #2d1e5a;
+        color: #242468;
         margin-bottom: 24px;
         font-size: 22px; }
       #fourSection .content article:nth-child(1) p:nth-child(2) {
         font-size: 17px;
-        color: #2d1e5a;
+        color: #242468;
         font-weight: 300; }
       #fourSection .content article:nth-child(1) p:nth-child(3) {
         display: none; }
@@ -1304,12 +1304,12 @@ footer {
       width: auto;
       overflow-x: auto;
       display: inherit; }
-      #fourSection .content article:nth-child(2) .contetElements {
+      #fourSection .content article:nth-child(2) .contentElements {
         display: inline-block;
         float: left; }
-        #fourSection .content article:nth-child(2) .contetElements .element {
+        #fourSection .content article:nth-child(2) .contentElements .element {
           width: auto;
-          border: 1px solid #2d1e5a;
+          border: 1px solid #242468;
           padding: 9px 18px 18px;
           width: 237px;
           margin-left: 18px;
@@ -1320,31 +1320,31 @@ footer {
           display: -webkit-flex;
           display: -ms-flexbox;
           display: flex; }
-          #fourSection .content article:nth-child(2) .contetElements .element i {
+          #fourSection .content article:nth-child(2) .contentElements .element i {
             display: block;
             width: 100%;
             text-align: right;
             font-size: 17px;
-            color: #2d1e5a;
+            color: #242468;
             padding-bottom: 9px; }
-          #fourSection .content article:nth-child(2) .contetElements .element img {
+          #fourSection .content article:nth-child(2) .contentElements .element img {
             width: 30%;
             width: 52px;
             height: 52px;
             border-radius: 50%; }
-          #fourSection .content article:nth-child(2) .contetElements .element .text {
+          #fourSection .content article:nth-child(2) .contentElements .element .text {
             width: 70%;
             padding: 9px; }
-            #fourSection .content article:nth-child(2) .contetElements .element .text h3 {
+            #fourSection .content article:nth-child(2) .contentElements .element .text h3 {
               font-size: 16px;
               font-weight: 600;
-              color: #2d1e5a;
+              color: #2b1f6d;
               font-family: "Raleway"; }
-            #fourSection .content article:nth-child(2) .contetElements .element .text h4 {
+            #fourSection .content article:nth-child(2) .contentElements .element .text h4 {
               font-color: #000000;
               font-size: 12px;
               font-weight: 400; }
-          #fourSection .content article:nth-child(2) .contetElements .element p {
+          #fourSection .content article:nth-child(2) .contentElements .element p {
             font-color: #000000;
             font-size: 14px;
             font-style: italic;
@@ -1426,25 +1426,597 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 36px 0; }
+    padding: 25px 0 16px; }
     #Info > .content article {
-      width: 50%;
-      padding: 18px;
+      width: 49%;
+      padding: 27px 18px 0;
       color: white;
       text-align: center; }
-      #Info > .content article .content i {
-        font-size: 29px;
-        color: rgba(255, 255, 255, 0.3); }
-      #Info > .content article .content h4 {
-        font-size: 14px;
-        font-weight: 400; }
-      #Info > .content article .content p {
-        font-size: 14px;
-        font-weight: 300; }
-      #Info > .content article .content:nth-child(1) {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
-      #Info > .content article .content:nth-child(2) {
-        border-left: 1px solid rgba(255, 255, 255, 0.3); }
+      #Info > .content article .content {
+        min-height: 135px; }
+        #Info > .content article .content i {
+          font-size: 29px;
+          color: rgba(255, 255, 255, 0.3);
+          margin-bottom: 7px;
+          display: block; }
+        #Info > .content article .content h4 {
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 14px; }
+        #Info > .content article .content p {
+          font-size: 13px;
+          font-weight: 300;
+          letter-spacing: 1px; }
+    #Info > .content span.line {
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      height: 130px;
+      margin: 13px 0; }
+    #Info > .content article:nth-child(1) .content {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    #Info > .content article:nth-child(3) .content {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+#resume {
+  padding: 36px 0 0;
+  background: #f6f6f6;
+  border-bottom: 3px solid #62269e; }
+  #resume .content article {
+    padding: 0 18px 18px; }
+    #resume .content article img {
+      width: 100%; }
+    #resume .content article h2 {
+      font-size: 24px;
+      font-weight: 300;
+      color: #242468;
+      margin-bottom: 27px;
+      text-align: center; }
+      #resume .content article h2 strong {
+        font-weight: 600; }
+    #resume .content article h3 {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 27px;
+      color: #242468;
+      line-height: 27px; }
+    #resume .content article p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 27px;
+      line-height: 20px; }
+    #resume .content article ul {
+      list-style: none;
+      margin-bottom: 36px; }
+    #resume .content article li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      margin-bottom: 10px; }
+    #resume .content article li:before {
+      content: "■  ";
+      color: #242468;
+      /* or whatever color you prefer */ }
+    #resume .content article li:after {
+      margin-left: 9px; }
+
+#eyecatcherInEmpresa {
+  clear: both;
+  height: 264px; }
+  #eyecatcherInEmpresa .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherInEmpresa .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherInEmpresa .content > img {
+      width: 684px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 50%;
+      top: -27%;
+      z-index: -2; }
+    #eyecatcherInEmpresa .content h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 16px; }
+    #eyecatcherInEmpresa .content h1 {
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 600; }
+    #eyecatcherInEmpresa .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 300;
+      width: 100%;
+      margin-bottom: 1px; }
+    #eyecatcherInEmpresa .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 31px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+#InfoEmpresa {
+  background: #190c3c; }
+  #InfoEmpresa > .content {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 0 16px; }
+    #InfoEmpresa > .content article {
+      width: 49%;
+      padding: 27px 18px 0;
+      color: white;
+      text-align: center; }
+      #InfoEmpresa > .content article .content {
+        min-height: 135px; }
+        #InfoEmpresa > .content article .content i {
+          font-size: 29px;
+          color: rgba(255, 255, 255, 0.3);
+          margin-bottom: 7px;
+          display: block; }
+        #InfoEmpresa > .content article .content h4 {
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 14px; }
+        #InfoEmpresa > .content article .content p {
+          font-size: 13px;
+          font-weight: 300;
+          letter-spacing: 1px; }
+    #InfoEmpresa > .content span.line {
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      height: 130px;
+      margin: 13px 0; }
+    #InfoEmpresa > .content article:nth-child(1) .content {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    #InfoEmpresa > .content article:nth-child(3) .content {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+#resumeEmpresa {
+  padding: 36px 0 0;
+  background: #f6f6f6;
+  border-bottom: 3px solid #62269e; }
+  #resumeEmpresa article:nth-child(1) {
+    text-align: center;
+    color: #242468;
+    margin-bottom: 32px; }
+    #resumeEmpresa article:nth-child(1) h3 {
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
+      color: #878787;
+      margin-bottom: 27px; }
+    #resumeEmpresa article:nth-child(1) h2 {
+      font-size: 24px;
+      font-weight: 200;
+      font-family: "Raleway";
+      margin-bottom: 27px; }
+      #resumeEmpresa article:nth-child(1) h2 strong {
+        font-weight: 600; }
+  #resumeEmpresa article:nth-child(2) {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 27px; }
+    #resumeEmpresa article:nth-child(2) .contentAside {
+      padding: 0 0 0 18px;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      overflow-y: scroll;
+      width: 840px; }
+      #resumeEmpresa article:nth-child(2) .contentAside aside {
+        position: relative;
+        width: 33%;
+        padding: 0 18px 0 0; }
+        #resumeEmpresa article:nth-child(2) .contentAside aside img {
+          width: 100%;
+          margin-bottom: 33px; }
+        #resumeEmpresa article:nth-child(2) .contentAside aside h3 {
+          font-size: 19px;
+          font-weight: 200;
+          line-height: 26px;
+          margin-bottom: 33px;
+          color: #2b1f6d; }
+        #resumeEmpresa article:nth-child(2) .contentAside aside p {
+          font-weight: 100;
+          color: #000000;
+          font-size: 14px;
+          line-height: 25px;
+          margin-bottom: 27px; }
+          #resumeEmpresa article:nth-child(2) .contentAside aside p button {
+            padding: 4px 24px; }
+        #resumeEmpresa article:nth-child(2) .contentAside aside span {
+          position: absolute;
+          background: #2b1f6d;
+          color: #ffffff;
+          text-align: center;
+          top: 122px;
+          left: 12px;
+          padding: 18px;
+          font-size: 11px;
+          font-family: "Raleway";
+          font-weight: 600; }
+
+#eyecatcherCursos {
+  clear: both;
+  height: 264px; }
+  #eyecatcherCursos .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherCursos .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherCursos .content > img {
+      width: 964px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 70%;
+      top: -3%;
+      z-index: -2; }
+    #eyecatcherCursos .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 100;
+      width: 100%;
+      margin-bottom: 1px;
+      margin-top: 23px; }
+    #eyecatcherCursos .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 69px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+#titleIn .content {
+  background: #190c3c;
+  text-align: center; }
+  #titleIn .content h1 {
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: 100;
+    color: #ffffff;
+    padding: 36px 0; }
+    #titleIn .content h1 strong {
+      font-weight: 600; }
+
+#calendarIn {
+  height: 404px;
+  border-bottom: 4px solid #62269e;
+  position: relative; }
+  #calendarIn .degradate {
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+10,0+10,0.88+78 */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.88) 78%, rgba(255, 255, 255, 0.88) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e0ffffff',GradientType=0 );
+    /* IE6-9 */ }
+  #calendarIn > .content {
+    overflow: auto;
+    height: 404px; }
+    #calendarIn > .content article {
+      padding: 18px;
+      width: 100%;
+      border-bottom: 1px solid #a9a9a9; }
+      #calendarIn > .content article .content {
+        width: 100%;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        #calendarIn > .content article .content span {
+          width: 50%;
+          color: #999;
+          font-size: 11px;
+          font-family: "Raleway";
+          font-weight: 600; }
+        #calendarIn > .content article .content span:nth-child(2) {
+          text-align: right; }
+          #calendarIn > .content article .content span:nth-child(2) a {
+            color: #999;
+            transition: color .4s; }
+            #calendarIn > .content article .content span:nth-child(2) a:hover {
+              color: #190c3c; }
+        #calendarIn > .content article .content h2 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #2b1f6d;
+          padding: 12px 0; }
+        #calendarIn > .content article .content .info {
+          width: 100%;
+          -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; }
+          #calendarIn > .content article .content .info .dates {
+            width: 33%;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; }
+            #calendarIn > .content article .content .info .dates i {
+              width: 25%;
+              color: rgba(43, 31, 109, 0.7);
+              font-size: 20px; }
+            #calendarIn > .content article .content .info .dates p {
+              width: 75%;
+              font-size: 14px;
+              font-weight: 500;
+              color: #444;
+              line-height: 17px; }
+          #calendarIn > .content article .content .info .dates:nth-child(2) p, #calendarIn > .content article .content .info .dates:nth-child(3) p {
+            padding: 9px 0 0; }
+    #calendarIn > .content article:nth-child(odd) {
+      background: #f4f4f4; }
+
+#eyecatcherCoach {
+  clear: both;
+  height: 264px; }
+  #eyecatcherCoach .content {
+    height: 264px;
+    color: white;
+    text-align: center;
+    padding: 58px 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    max-width: 1442px;
+    margin-left: auto;
+    margin-right: auto; }
+    #eyecatcherCoach .content div.degrade {
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
+      /* IE6-9 */ }
+    #eyecatcherCoach .content > img {
+      width: 844px;
+      position: absolute;
+      transform: translatex(-45%);
+      left: 93%;
+      top: -5%;
+      z-index: -2; }
+    #eyecatcherCoach .content h1 {
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 600; }
+    #eyecatcherCoach .content h3 {
+      font-size: 26px;
+      font-family: "Raleway";
+      font-weight: 100;
+      width: 100%;
+      margin-bottom: 6px; }
+    #eyecatcherCoach .content p {
+      font-size: 14px;
+      font-weight: 300;
+      bottom: 58px;
+      width: 210px;
+      line-height: 18px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0; }
+
+#resumeCoach {
+  padding: 36px 0 0;
+  background: #f6f6f6; }
+  #resumeCoach .content article:nth-child(1) {
+    padding: 0 18px 0; }
+    #resumeCoach .content article:nth-child(1) img {
+      width: 100%; }
+    #resumeCoach .content article:nth-child(1) h2 {
+      font-size: 24px;
+      font-weight: 300;
+      color: #2b1f6d;
+      margin-bottom: 27px;
+      text-align: center; }
+      #resumeCoach .content article:nth-child(1) h2 strong {
+        font-weight: 600; }
+    #resumeCoach .content article:nth-child(1) h3 {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 27px;
+      color: #2b1f6d;
+      line-height: 27px; }
+    #resumeCoach .content article:nth-child(1) p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 27px;
+      line-height: 20px; }
+    #resumeCoach .content article:nth-child(1) ul {
+      list-style: none;
+      margin-bottom: 36px; }
+    #resumeCoach .content article:nth-child(1) li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      margin-bottom: 10px; }
+    #resumeCoach .content article:nth-child(1) li:before {
+      content: "■  ";
+      color: #242468;
+      /* or whatever color you prefer */ }
+    #resumeCoach .content article:nth-child(1) li:after {
+      margin-left: 9px; }
+  #resumeCoach .content article:nth-child(2) {
+    padding: 0 18px 18px;
+    width: 100%;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #resumeCoach .content article:nth-child(2) .ifongrafia {
+      width: 50%;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      #resumeCoach .content article:nth-child(2) .ifongrafia i {
+        width: 20%;
+        color: #62269e;
+        font-size: 33px; }
+      #resumeCoach .content article:nth-child(2) .ifongrafia p {
+        width: 80%;
+        font-weight: 700;
+        font-family: "Raleway";
+        font-size: 13px;
+        color: #2b1f6d;
+        padding: 15px 9px 0; }
+
+#modulos {
+  padding: 18px; }
+  #modulos article:nth-child(1) {
+    position: relative;
+    height: 230px;
+    overflow: hidden; }
+    #modulos article:nth-child(1) img {
+      position: absolute;
+      width: 348px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 33%; }
+  #modulos article:nth-child(2) {
+    margin: 18px 0; }
+    #modulos article:nth-child(2) h2 {
+      color: #2b1f6d;
+      font-family: "Raleway";
+      font-size: 24px;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 27px; }
+    #modulos article:nth-child(2) > div {
+      margin-bottom: 29px;
+      width: 100%; }
+      #modulos article:nth-child(2) > div div:nth-child(1) ul {
+        width: 100%;
+        height: 37px; }
+        #modulos article:nth-child(2) > div div:nth-child(1) ul li {
+          width: 63px;
+          margin-right: 15px;
+          border-bottom: 1px solid white; }
+          #modulos article:nth-child(2) > div div:nth-child(1) ul li a {
+            background: #190c3c;
+            border: 1px solid #190c3c;
+            transition: background .4s;
+            font-size: 26px;
+            font-weight: 600;
+            font-family: "Raleway";
+            color: rgba(255, 255, 255, 0.8); }
+          #modulos article:nth-child(2) > div div:nth-child(1) ul li .active {
+            border: 1px solid #e5e5e5;
+            background: #ffffff;
+            color: rgba(36, 36, 104, 0.4);
+            border-bottom: 1px solid white; }
+      #modulos article:nth-child(2) > div .contentTab {
+        border: 1px solid #e5e5e5;
+        padding: 24px 12px 36px; }
+        #modulos article:nth-child(2) > div .contentTab .content h3 {
+          font-family: "Raleway";
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 18px;
+          line-height: 32px; }
+        #modulos article:nth-child(2) > div .contentTab .content p {
+          font-size: 16px;
+          color: #000000;
+          line-height: 23px; }
 
 #eyecatcher .two {
   height: 261px; }

@@ -1,0 +1,222 @@
+#eyecatcherCoach{
+	clear: both;
+	height: 264px;
+	.content{
+		height: 264px;
+		color: white;
+		text-align: center;
+		padding:  58px 0;
+		@include contenImg;
+		@include wrapp;
+		div.degrade{
+			top: 0;
+			left: 0;
+			position: absolute;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
+			background: -moz-linear-gradient(top,  rgba(0,0,0,0) 22%, rgba(0,0,0,0.52) 87%, rgba(0,0,0,0.62) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 ); /* IE6-9 */
+
+
+		}
+		>img{
+			    width: 844px;
+			    position: absolute;
+			    transform: translatex(-45%);
+			    left: 93%;
+			    top: -5%;
+			    z-index: -2;
+		}
+		
+		h1{
+            font-family: $font2;
+            font-size: 26px;
+            font-weight: $RSemiBold;
+		}
+		h3{
+             font-size: 26px;
+             font-family: $font2;
+             font-weight: 100;
+             width: 100%;
+             margin-bottom: 6px;
+             // @include centerAbsolute2;
+             // line-height: 17px;
+		}
+		p{
+			font-size: 14px;
+			font-weight: 300;
+			bottom: 58px;
+			width: 210px;
+			line-height: 18px;
+			left: 0;
+			right: 0;
+		   @include centerAbsolute2;
+		}
+		// p{
+			
+		// 	bottom: -90px;
+		// }
+	}
+}
+#resumeCoach{
+	padding: 36px 0 0;
+	background: #f6f6f6;
+
+	.content{
+		article:nth-child(1){
+			padding: 0 18px 0;
+			img{
+				width: 100%;
+			}
+			h2{
+				font-size: 24px;
+				font-weight: $light;
+				color: $purpleTitle;
+				margin-bottom: 27px;
+				text-align: center;
+				strong{
+					font-weight: $semiBold;
+				}
+			}
+			h3{
+				font-size: 18px;
+				font-weight: $light;
+				margin-bottom: 27px;
+				color: $purpleTitle;
+				line-height: 27px;
+			}
+			p{
+				font-size: 14px;
+				font-weight: $normal;
+				color: $negro;
+				margin-bottom: 27px;
+				line-height: 20px;
+			}
+			ul {
+				    list-style: none;
+				    margin-bottom: 36px;
+				}
+
+				li { 
+				    padding-left: 1em; 
+				    text-indent: -.7em;
+				    margin-bottom: 10px;
+				}
+
+				li:before {
+				    content: "■  ";
+				    color: $purple2; /* or whatever color you prefer */
+				}
+				li:after {
+					margin-left: 9px;
+				}
+
+		}
+		article:nth-child(2){
+			padding: 0 18px 18px;
+			width:  100%;
+			@include flexFlow;
+			.ifongrafia{
+				width: 50%;
+				@include flexFlow;
+				i{
+					width: 20%;
+					color: $purple1;
+					font-size: 33px;
+				}
+				p{
+					width: 80%;
+					font-weight: 700;
+					font-family: $font2;
+					font-size: 13px;
+					color: $purpleTitle;
+					padding: 15px 9px 0;
+				}
+			}
+
+		}
+
+	}
+}
+
+#modulos{
+	padding: 18px;
+	article:nth-child(1){
+		position: relative;
+		height: 230px;
+		overflow: hidden; 
+		img{
+             position: absolute;
+		    width: 348px;
+		    transform: translate(-50%, -50%);
+		    left: 50%;
+		    top: 33%;
+		}
+	}
+	article:nth-child(2){
+		margin: 18px 0;
+		h2{
+			color: $purpleTitle;
+			font-family: $font2;
+			font-size: 24px;
+			text-align: center;	
+			font-weight: 700;
+			margin-bottom: 27px;
+		} 
+		>div{
+			margin-bottom: 29px;
+			width: 100%;
+			div:nth-child(1){
+				ul{
+					width: 100%;
+					height: 37px;
+					li{
+						width: 63px;
+						margin-right: 15px;
+						border-bottom: 1px solid white;
+						a{
+                          background: $purple3;
+                          border: 1px solid $purple3;
+                          transition: background .4s;
+                          font-size: 26px;
+                          font-weight: 600;
+                          font-family: $font2;
+                          color: rgba($blanco, .8);
+                          
+						}
+						.active{
+							border: 1px solid #e5e5e5;
+							background: $blanco;
+							color: rgba($purple2, .4);
+							border-bottom: 1px solid white;
+						}
+					}
+				}
+			}
+			.contentTab{
+				// margin-top: -1px;
+				border: 1px solid #e5e5e5;
+				padding: 24px 12px 36px;
+				.content{
+					h3{
+                       font-family: $font2;
+                       font-size: 18px;
+                       font-weight: 700;
+                       margin-bottom: 18px;
+                       line-height: 32px;
+					}
+					p{
+						font-size: 16px;
+						color: $negro;
+						line-height: 23px;
+					}
+				}
+			}
+		}
+	}
+}
