@@ -92,6 +92,9 @@ header{
 				 	line-height: 62px;
 				 	font-size: 17px;
 				 	transition: transform .4s; 
+				 	 -ms-transform: rotate(90deg);
+				      -webkit-transform: rotate(90deg);
+				      transform: rotate(90deg);
 				 }
 				}
               }
@@ -261,7 +264,7 @@ header{
 						i{
 						    display: inline-block;
 						    font-size: 22px;
-						    font-weight: 800;
+						    font-weight: 100;
 						    vertical-align: middle;
 						    margin-right: 10px;
 						}

@@ -54,15 +54,15 @@ change "brown" to something of your choosing
   background-color: rgba(0, 0, 0, 1);
 }
     .rotate180{
-      -ms-transform: rotate(180deg);
-      -webkit-transform: rotate(180deg);
-      transform: rotate(180deg);
+      -ms-transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
       color: #b9b9b9 !important;
     } 
      .rotate0{
-      -ms-transform: rotate(0);
-      -webkit-transform: rotate(0);
-      transform: rotate(0);
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
       color: $gris2;
     } 
 
