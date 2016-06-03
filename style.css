@@ -629,6 +629,59 @@ change "brown" to something of your choosing
   opacity: 0;
   background: white !important; }
 
+.btnColorZ {
+  border: 3px solid #62269e;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #62269e;
+  background: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 8px 24px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btnColorZ:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn-1z:after {
+  width: 0;
+  border-radius: 40px;
+  height: 103%;
+  top: 50%;
+  left: 50%;
+  background: #62269e;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.btn-1z:hover,
+.btn-1z:active {
+  color: white; }
+
+.btn-1z:hover:after {
+  width: 102%;
+  opacity: 1; }
+
+.btn-1z:active:after {
+  width: 101%;
+  opacity: 0;
+  background: #62269e !important; }
+
 header nav {
   background: #ffffff;
   height: 90px;
@@ -1578,7 +1631,9 @@ footer {
 
 .contactForm {
   width: 100%;
-  margin-top: 40px; }
+  margin-top: 40px;
+  position: relative;
+  z-index: 999999; }
   .contactForm h2 {
     background: #190c3c;
     color: white;
@@ -1587,6 +1642,8 @@ footer {
     padding: 27px 0px;
     text-align: center;
     letter-spacing: 1px; }
+  .contactForm .row {
+    margin-bottom: -10px !important; }
   .contactForm form {
     margin-top: 20px; }
     .contactForm form label {
@@ -1623,24 +1680,25 @@ footer {
   font-family: 'Raleway';
   width: 100%;
   padding: 15px 0px;
-  font-size: 14px;
-  border-radius: 40px; }
+  font-size: 14px; }
 
 section.map {
-  position: relative; }
+  position: relative;
+  z-index: -999999999; }
 
 .white {
   background-color: white;
   height: 50px;
-  border: 1px solid black;
-  position: absolute;
-  z-index: 9999999; }
+  position: relative;
+  top: 140px;
+  z-index: 9; }
+
+.contact-map {
+  margin-top: -140px; }
 
 iframe {
-  position: relative; }
-
-.i4ewOd-pzNkMb-haAclf {
-  display: none !important; }
+  position: relative;
+  border: 1px solid white; }
 
 /*
   Flaticon icon font: Flaticon
