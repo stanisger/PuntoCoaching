@@ -2,9 +2,29 @@
 	.two{
 		height: 261px;
 
+		@media (min-width:992px){
+			padding-top:160px;
+			height: 471px;
+		}
+
+		.text{
+			width: 50%;
+			margin: auto;
+		}
+		@media (min-width:992px){
+			.text{
+				margin-left:1%;
+			}
+		}
+
+		@media (min-width:1150px){
+			.text{
+				margin-left:13%;
+			}
+		}
+
 
 		h1{
-			width: 50%;
 			margin:auto;
 			line-height: 32px;
 			margin-bottom: 10px;
@@ -15,22 +35,96 @@
 		}
 
 		h3{
-			width: 80%;
 			margin: auto;
-			width: 63%;
     		line-height: 20px;
 		}
+
+			@media (min-width: 992px){
+				h1, h3{
+				text-align: left;
+				padding-left:20px;
+				margin:0;
+
+				}
+
+				h1{
+					font-size: 40px;
+				}
+				h3{
+					font-size: 24px;
+					line-height: 36px;
+					margin:0;
+					width: 564px;
+					margin-top:20px;
+					position: relative !important;
+				}
+			}
+			
+			@media (min-width:992px){
+				h1{font-size:47px;}
+				h3{margin-top:37px;}
+
+			}
+			@media (min-width: 1400px){
+				h1,h3{
+					padding-left: 0px;
+				}	
+			}
 
 		img{
 			width: 1029px;
 		    transform: translatex(-59%);
 		    top: 0;
 		}
+		@media (min-width:600px){
+			img{
+			transform: translatex(-50%);
+			}
+		}
+		@media (min-width:992px){
+			img{
+				width: 1920px;
+			}
+		}
 	}
 }
 
 .eyecatcher-in{
 	height:264px !important;
+}
+@media (min-width:992px){
+	.eyecatcher-in{
+		height: 470px !important;
+	}
+}
+
+
+main{
+	@include flexFlow;
+}
+
+.firstSection{
+	width:100%;
+
+	article:nth-child(1){
+	}
+	@media (min-width:1150px){
+		article:nth-child(1){
+			padding-left:26% !important;
+			padding-right:5% !important;
+		}
+	}
+}
+
+@media (min-width:750px){
+	.firstSection{
+	width:50% !important;
+	}
+}
+@media (min-width:992px){
+	.firstSection{
+    padding: 30px 20px;
+	}
 }
 
 .coach-descript{
@@ -51,6 +145,9 @@
 		color:$purpleTitle;
 		text-align: center;
 	}
+	@media (min-width:992px){
+		h2{text-align:left;}
+	}
 
 	h5{
 		color:$purpleTitle;
@@ -61,6 +158,9 @@
 		font-size: 12px;
 		margin-top: 20px;
 	}
+	@media (min-width:992px){
+		h5{text-align:left; margin-bottom:30px;}
+	}
 
 
 	p{
@@ -68,6 +168,12 @@
 		font-weight: 400;
 		text-align:left;
 		margin-bottom: 27px;
+	}
+}
+
+@media (min-width:750px){
+	.coach-descript{
+		height: 480px !important;
 	}
 }
 
@@ -88,11 +194,11 @@
 }
 
 .secondSection {
+	width:100%;
 	.content{
 		article{
 			background: $purple3;
 			color: white;
-
 			ul{
 				width: 90%;
 	    		margin: auto;
@@ -107,7 +213,7 @@
 						line-height: 12px;
 					}
 
-					i.flaticon-verified-checkbox-symbol{
+					i.flaticon-check-box{
 						font-size: 23px !important;
 						color:$purpleLight;
 						float: left;
@@ -115,14 +221,42 @@
 					}
 				}
 			}
+			@media (min-width:750px){
+				ul{
+					padding: 20px 0 40px; 
+				}
+			}
+
+			@media (min-width:992px){
+				ul{
+				padding:80px 0;
+				}
+			}
 		}
+		@media (min-width:750px){
+				article{
+					height: 480px;
+				}
+		}
+
+	}
+}
+
+@media (min-width:750px){
+	.secondSection{
+	width:50%;
 	}
 }
 
 .thirdSection{
+	width:100%;
+	background-color:#f2f2f2;
 	.content{
+		width: 100%;
+		max-width: 1400px;
+		margin:auto;
+	@include flexFlow;
 		article{
-		background: white !important;
 		padding: 0 17px 36px 17px !important;
 
 			p, h2, h3, h4{
@@ -150,24 +284,50 @@
 			}
 
 			.logosImg{
-				width: 90%;
+				width: 300px;
 				margin:auto;
+					@media (min-width:750px){
+						margin-top: 50px;
+					}
 
 				img{
-					width: 46%;
 					float: left;
 					border: 3px solid #aaa;
 					border-radius:50%;
 					margin-bottom: 20px;
+					@media (min-width:750px){
+						width: 100px;
+					}
+					@media (min-width:992px){
+						width: 120px;
+					}
 				}
 
 				img:nth-child(1){
-					margin-right:7%;
+					margin-right:6%;
 				}
 				img:nth-child(3){
-					margin-right:7%;
+					margin-right:6%;
 				}
 			}
+			@media (min-width:750px){
+				.logosImg{
+					width: 100%;
+				}
+				img:nth-child(2){
+					margin-right:6%;
+				}
+			}
+		}
+
+	}
+	@media (min-width:750px){
+		article:nth-child(1){
+			width: 30% !important;		
+		}
+		article:nth-child(2){
+			width: 70% !important;
+				
 		}
 	}
 }

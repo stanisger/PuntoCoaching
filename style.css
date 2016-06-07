@@ -396,15 +396,15 @@ change "brown" to something of your choosing
   background-color: black; }
 
 .rotate180 {
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
   color: #b9b9b9 !important; }
 
 .rotate0 {
-  -ms-transform: rotate(0);
-  -webkit-transform: rotate(0);
-  transform: rotate(0);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
   color: #393939; }
 
 .btnContent {
@@ -776,7 +776,10 @@ header nav {
         color: #62269e;
         line-height: 62px;
         font-size: 17px;
-        transition: transform .4s; }
+        transition: transform .4s;
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg); }
     header nav .nav-wrapper > ul:nth-child(3) {
       margin-top: 87px;
       height: 94px;
@@ -911,7 +914,7 @@ header nav {
           header nav .nav-wrapper > ul:nth-child(4) > li:last-child > a i {
             display: inline-block;
             font-size: 22px;
-            font-weight: 800;
+            font-weight: 100;
             vertical-align: middle;
             margin-right: 10px; }
 
@@ -988,10 +991,7 @@ footer {
     padding: 58px 0;
     overflow: hidden;
     position: absolute;
-    width: 100%;
-    max-width: 1442px;
-    margin-left: auto;
-    margin-right: auto; }
+    position: relative; }
     #eyecatcher .content div.degrade {
       top: 0;
       left: 0;
@@ -1500,26 +1500,89 @@ footer {
 
 #eyecatcher .two {
   height: 261px; }
-  #eyecatcher .two h1 {
+  @media (min-width: 992px) {
+    #eyecatcher .two {
+      padding-top: 160px;
+      height: 471px; } }
+  #eyecatcher .two .text {
     width: 50%;
+    margin: auto; }
+  @media (min-width: 992px) {
+    #eyecatcher .two .text {
+      margin-left: 1%; } }
+  @media (min-width: 1150px) {
+    #eyecatcher .two .text {
+      margin-left: 13%; } }
+  #eyecatcher .two h1 {
     margin: auto;
     line-height: 32px;
     margin-bottom: 10px; }
     #eyecatcher .two h1 span {
       font-weight: 200; }
   #eyecatcher .two h3 {
-    width: 80%;
     margin: auto;
-    width: 63%;
     line-height: 20px; }
+  @media (min-width: 992px) {
+    #eyecatcher .two h1, #eyecatcher .two h3 {
+      text-align: left;
+      padding-left: 20px;
+      margin: 0; }
+    #eyecatcher .two h1 {
+      font-size: 40px; }
+    #eyecatcher .two h3 {
+      font-size: 24px;
+      line-height: 36px;
+      margin: 0;
+      width: 564px;
+      margin-top: 20px;
+      position: relative !important; } }
+  @media (min-width: 992px) {
+    #eyecatcher .two h1 {
+      font-size: 47px; }
+    #eyecatcher .two h3 {
+      margin-top: 37px; } }
+  @media (min-width: 1400px) {
+    #eyecatcher .two h1, #eyecatcher .two h3 {
+      padding-left: 0px; } }
   #eyecatcher .two img {
     width: 1029px;
     transform: translatex(-59%);
     top: 0; }
+  @media (min-width: 600px) {
+    #eyecatcher .two img {
+      transform: translatex(-50%); } }
+  @media (min-width: 992px) {
+    #eyecatcher .two img {
+      width: 1920px; } }
 
 .eyecatcher-in {
   height: 264px !important; }
 
+@media (min-width: 992px) {
+  .eyecatcher-in {
+    height: 470px !important; } }
+main {
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.firstSection {
+  width: 100%; }
+  @media (min-width: 1150px) {
+    .firstSection article:nth-child(1) {
+      padding-left: 26% !important;
+      padding-right: 5% !important; } }
+
+@media (min-width: 750px) {
+  .firstSection {
+    width: 50% !important; } }
+@media (min-width: 992px) {
+  .firstSection {
+    padding: 30px 20px; } }
 .coach-descript {
   background-color: white !important;
   padding: 20px 15px;
@@ -1534,6 +1597,9 @@ footer {
   .coach-descript h2 {
     color: #2b1f6d;
     text-align: center; }
+  @media (min-width: 992px) {
+    .coach-descript h2 {
+      text-align: left; } }
   .coach-descript h5 {
     color: #2b1f6d;
     font-weight: 700;
@@ -1542,12 +1608,19 @@ footer {
     margin-bottom: 15px;
     font-size: 12px;
     margin-top: 20px; }
+  @media (min-width: 992px) {
+    .coach-descript h5 {
+      text-align: left;
+      margin-bottom: 30px; } }
   .coach-descript p {
     color: black;
     font-weight: 400;
     text-align: left;
     margin-bottom: 27px; }
 
+@media (min-width: 750px) {
+  .coach-descript {
+    height: 480px !important; } }
 .button-2-column {
   margin: auto;
   -webkit-flex-flow: row wrap;
@@ -1563,58 +1636,103 @@ footer {
     margin-right: 4%;
     text-align: right; }
 
-.secondSection .content article {
-  background: #190c3c;
-  color: white; }
-  .secondSection .content article ul {
-    width: 90%;
-    margin: auto; }
-    .secondSection .content article ul li {
-      margin-bottom: 20px; }
-      .secondSection .content article ul li strong {
-        font-size: 16px;
-        line-height: 30px; }
-      .secondSection .content article ul li span {
-        font-weight: 300;
-        line-height: 12px; }
-      .secondSection .content article ul li i.flaticon-verified-checkbox-symbol {
-        font-size: 23px !important;
-        color: #695e85;
-        float: left;
-        margin: 10px 20px 18px 0px; }
+.secondSection {
+  width: 100%; }
+  .secondSection .content article {
+    background: #190c3c;
+    color: white; }
+    .secondSection .content article ul {
+      width: 90%;
+      margin: auto; }
+      .secondSection .content article ul li {
+        margin-bottom: 20px; }
+        .secondSection .content article ul li strong {
+          font-size: 16px;
+          line-height: 30px; }
+        .secondSection .content article ul li span {
+          font-weight: 300;
+          line-height: 12px; }
+        .secondSection .content article ul li i.flaticon-check-box {
+          font-size: 23px !important;
+          color: #695e85;
+          float: left;
+          margin: 10px 20px 18px 0px; }
+    @media (min-width: 750px) {
+      .secondSection .content article ul {
+        padding: 20px 0 40px; } }
+    @media (min-width: 992px) {
+      .secondSection .content article ul {
+        padding: 80px 0; } }
+  @media (min-width: 750px) {
+    .secondSection .content article {
+      height: 480px; } }
 
-.thirdSection .content article {
-  background: white !important;
-  padding: 0 17px 36px 17px !important; }
-  .thirdSection .content article p, .thirdSection .content article h2, .thirdSection .content article h3, .thirdSection .content article h4 {
-    color: #242468; }
-  .thirdSection .content article p {
-    text-align: center;
-    font-size: 17px !important;
-    font-weight: 300 !important; }
-  .thirdSection .content article h3 {
-    font-weight: 700 !important;
-    margin-bottom: 24px;
-    font-size: 22px !important;
-    text-align: center;
-    font-family: "Raleway" !important; }
-  .thirdSection .content article p {
-    font-weight: 600;
-    margin-bottom: 24px;
-    font-size: 22px; }
-  .thirdSection .content article .logosImg {
-    width: 90%;
-    margin: auto; }
-    .thirdSection .content article .logosImg img {
-      width: 46%;
-      float: left;
-      border: 3px solid #aaa;
-      border-radius: 50%;
-      margin-bottom: 20px; }
-    .thirdSection .content article .logosImg img:nth-child(1) {
-      margin-right: 7%; }
-    .thirdSection .content article .logosImg img:nth-child(3) {
-      margin-right: 7%; }
+@media (min-width: 750px) {
+  .secondSection {
+    width: 50%; } }
+.thirdSection {
+  width: 100%;
+  background-color: #f2f2f2; }
+  .thirdSection .content {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .thirdSection .content article {
+      padding: 0 17px 36px 17px !important; }
+      .thirdSection .content article p, .thirdSection .content article h2, .thirdSection .content article h3, .thirdSection .content article h4 {
+        color: #242468; }
+      .thirdSection .content article p {
+        text-align: center;
+        font-size: 17px !important;
+        font-weight: 300 !important; }
+      .thirdSection .content article h3 {
+        font-weight: 700 !important;
+        margin-bottom: 24px;
+        font-size: 22px !important;
+        text-align: center;
+        font-family: "Raleway" !important; }
+      .thirdSection .content article p {
+        font-weight: 600;
+        margin-bottom: 24px;
+        font-size: 22px; }
+      .thirdSection .content article .logosImg {
+        width: 300px;
+        margin: auto; }
+        @media (min-width: 750px) {
+          .thirdSection .content article .logosImg {
+            margin-top: 50px; } }
+        .thirdSection .content article .logosImg img {
+          float: left;
+          border: 3px solid #aaa;
+          border-radius: 50%;
+          margin-bottom: 20px; }
+          @media (min-width: 750px) {
+            .thirdSection .content article .logosImg img {
+              width: 100px; } }
+          @media (min-width: 992px) {
+            .thirdSection .content article .logosImg img {
+              width: 120px; } }
+        .thirdSection .content article .logosImg img:nth-child(1) {
+          margin-right: 6%; }
+        .thirdSection .content article .logosImg img:nth-child(3) {
+          margin-right: 6%; }
+      @media (min-width: 750px) {
+        .thirdSection .content article .logosImg {
+          width: 100%; }
+        .thirdSection .content article img:nth-child(2) {
+          margin-right: 6%; } }
+  @media (min-width: 750px) {
+    .thirdSection article:nth-child(1) {
+      width: 30% !important; }
+    .thirdSection article:nth-child(2) {
+      width: 70% !important; } }
 
 #fiveSection .content article.article-five {
   position: relative;
@@ -1651,12 +1769,49 @@ footer {
   width: 706px;
   transform: translatex(-44%);
   top: -48px; }
+@media (min-width: 621px) {
+  #eyecatcher .three img {
+    width: 900px; } }
+@media (min-width: 780px) {
+  #eyecatcher .three img {
+    width: 1024px;
+    top: -70px;
+    transform: translatex(-54%); } }
+@media (min-width: 941px) {
+  #eyecatcher .three img {
+    width: 1520px;
+    top: -130px;
+    transform: translatex(-54%); } }
+@media (min-width: 1300px) {
+  #eyecatcher .three img {
+    width: 1920px;
+    transform: translatex(-50%);
+    top: -150px; } }
 
+.contact {
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 99999;
+  background-color: white;
+  width: 100%; }
+
+@media (min-width: 1150px) {
+  .contact {
+    width: 1150px;
+    margin: auto;
+    margin-top: 20px; } }
 .contactFirst {
   background: white;
   color: black;
   margin-top: 30px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  width: 100%; }
   .contactFirst ul {
     width: 90%;
     margin: auto; }
@@ -1670,22 +1825,40 @@ footer {
         line-height: 40px;
         font-family: "Raleway";
         text-transform: uppercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        font-weight: 600; }
+      @media (min-width: 992px) {
+        .contactFirst ul li strong {
+          font-size: 17px; } }
       .contactFirst ul li span {
         color: grey;
         font-weight: 300;
         line-height: 12px; }
-      .contactFirst ul li i.flaticon-location-pin {
-        font-size: 23px !important;
+      @media (min-width: 992px) {
+        .contactFirst ul li span {
+          font-size: 16px; } }
+      .contactFirst ul li .flaticon-tool, .contactFirst ul li .flaticon-note, .contactFirst ul li .flaticon-social {
+        font-size: 19px !important;
         color: #242468;
         float: left;
-        margin: 5px 20px 28px 0px; }
+        margin: 8px 20px 28px 0px; }
+    @media (min-width: 780px) {
+      .contactFirst ul li {
+        margin-bottom: 30px; } }
 
+@media (min-width: 780px) {
+  .contactFirst {
+    width: 38%;
+    margin-top: 34px; } }
+@media (min-width: 1150px) {
+  .contactFirst {
+    width: 33%;
+    margin-right: 5%; } }
 .contactForm {
   width: 100%;
   margin-top: 40px;
-  position: relative;
-  z-index: 999999; }
+  float: inherit;
+  margin-bottom: 60px; }
   .contactForm h2 {
     background: #190c3c;
     color: white;
@@ -1694,6 +1867,9 @@ footer {
     padding: 27px 0px;
     text-align: center;
     letter-spacing: 1px; }
+  @media (min-width: 780px) {
+    .contactForm h2 {
+      display: none; } }
   .contactForm .row {
     margin-bottom: -10px !important; }
   .contactForm form {
@@ -1703,51 +1879,71 @@ footer {
       color: #666;
       font-weight: 600;
       letter-spacing: 0.3px; }
+    @media (min-width: 992px) {
+      .contactForm form label {
+        font-size: 15.5px; } }
     .contactForm form label:active {
       color: #666 !important; }
     .contactForm form textarea.materialize-textarea {
       font-size: 30px !important; }
     .contactForm form input[type=text] {
-      font-size: 12px;
+      font-size: 13px;
       margin-bottom: 0;
       line-height: 10px;
-      padding: 10px 0 0 0; }
+      padding: 17px 0 0 0; }
     .contactForm form .row div {
       margin-top: 20px; }
     .contactForm form .row div:nth-child(4) .select-wrapper {
       margin-top: 0px; }
       .contactForm form .row div:nth-child(4) .select-wrapper span.caret {
-        top: 15px !important; }
+        top: 7px !important;
+        color: #62269e;
+        font-size: 10px; }
     .contactForm form .row div:nth-child(4) input[type=text] {
       font-size: 14px;
       color: #666;
       font-weight: 600;
       letter-spacing: 0.3px;
       padding-bottom: 20px;
-      padding-top: 0; }
+      padding-top: 0;
+      height: 2rem !important; }
+    @media (min-width: 600px) {
+      .contactForm form .row div:nth-child(4) input[type=text] {
+        padding-bottom: 17.3px; } }
+    @media (min-width: 992px) {
+      .contactForm form .row div:nth-child(4) input[type=text] {
+        font-size: 15.5px; } }
     .contactForm form .row div:nth-child(5) {
       margin-bottom: 20px; }
 
+@media (min-width: 780px) {
+  .contactForm {
+    width: 58%;
+    margin-top: 0px; } }
 .btn-contact button {
   font-family: 'Raleway';
   width: 100%;
   padding: 15px 0px;
   font-size: 14px; }
 
-section.map {
-  position: relative;
-  z-index: -999999999; }
-
 .white {
   background-color: white;
   height: 50px;
   position: relative;
   top: 140px;
-  z-index: 9; }
+  z-index: 9;
+  display: none; }
 
+@media (min-width: 992px) {
+  .white {
+    display: block;
+    top: 50px; } }
 .contact-map {
-  margin-top: -140px; }
+  margin-top: -48px; }
 
+@media (min-width: 992px) {
+  .contact-map {
+    margin-top: -98px; } }
 iframe {
   position: relative;
   border: 1px solid white; }
@@ -2297,58 +2493,52 @@ iframe {
 .flaticon-arrows-1:before {
   content: "\f101"; }
 
-.flaticon-arrows-2:before {
+.flaticon-back:before {
   content: "\f102"; }
 
-.flaticon-back:before {
+.flaticon-bars:before {
   content: "\f103"; }
 
-.flaticon-bars:before {
+.flaticon-business-presentation:before {
   content: "\f104"; }
 
-.flaticon-business:before {
+.flaticon-check-box:before {
   content: "\f105"; }
 
-.flaticon-business-1:before {
+.flaticon-clock:before {
   content: "\f106"; }
 
-.flaticon-clock:before {
+.flaticon-clock-circular-outline:before {
   content: "\f107"; }
 
-.flaticon-clock-circular-outline:before {
+.flaticon-close-button:before {
   content: "\f108"; }
 
-.flaticon-close-button:before {
+.flaticon-commenting:before {
   content: "\f109"; }
 
 .flaticon-dialogue-balloon:before {
   content: "\f10a"; }
 
-.flaticon-down-arrow:before {
+.flaticon-multiple-users-silhouette:before {
   content: "\f10b"; }
 
-.flaticon-facebook-logo-button:before {
+.flaticon-next:before {
   content: "\f10c"; }
 
-.flaticon-interface:before {
+.flaticon-note:before {
   content: "\f10d"; }
 
-.flaticon-location-pin:before {
+.flaticon-patent:before {
   content: "\f10e"; }
 
-.flaticon-multiple-users-silhouette:before {
+.flaticon-social:before {
   content: "\f10f"; }
 
-.flaticon-next:before {
+.flaticon-time:before {
   content: "\f110"; }
 
-.flaticon-patent:before {
+.flaticon-tool:before {
   content: "\f111"; }
-
-.flaticon-up-arrow:before {
-  content: "\f112"; }
-
-.flaticon-verified-checkbox-symbol:before {
-  content: "\f113"; }
 
 /*# sourceMappingURL=style.css.map */
