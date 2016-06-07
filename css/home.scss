@@ -35,12 +35,20 @@
 		    transition: width .4s;
 	  		@media (min-width:733px) {
 	  			width: 1400px;
-	  			 top: -72%;
+	  			 top: -35%;
 	  		}
 	  		  @media (min-width:992px) {
 			     width: 2220px;
 			     top: -190px;
 	  		  }
+	  		   @media (min-width:1700px) {
+	  		   	 width: 2520px;
+			     top: -190px;
+	  		   }
+	  		   @media (min-width:1980px) {
+	  		   	 width: 3220px;
+			     top: -190px;
+	  		   }
 		}
 		h2{
           font-size: 12px;
@@ -48,6 +56,10 @@
           margin-bottom: 16px;
           font-weight: 100;
           transition: font-size 1s;
+          transition: margin-top 1s;
+          @media (min-width:768px) {
+          	margin-top: 198px;
+          }
            @media (min-width:992px) {
            	font-size: 20px;
            	margin-top: 228px;
@@ -109,13 +121,21 @@
 
 			 }
 		}
+        @media (min-width:768px) {
+	    height: 520px; 		  	
+	     }
+
 		@media (min-width:992px) {
 	    height: 822px; 		  	
 	    }
+
 	}
+	@media (min-width:768px) {
+	    height: 520px; 		  	
+	 }
 	@media (min-width:992px) {
 	    height: 822px; 		  	
-	  		  }
+	 }
 }
 #firstSection{
 	width:100%;
@@ -211,6 +231,9 @@
 			    left: 67%;
 			    top: -1%;
         	}
+        	@media (min-width:1700px) {
+                 left: 59%;
+        	}
         }
 	   }
 	   >:nth-child(1){
@@ -228,7 +251,7 @@
 	    	&:hover{
 	    		 img:nth-child(5){
 	    		 	opacity: .6;
-	    		 	left: 63%;
+	    		 	left: 61%;
 	    		 	width: 1210px;
 	    		 }
 	    	}

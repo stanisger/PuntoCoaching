@@ -1023,17 +1023,29 @@ footer {
       @media (min-width: 733px) {
         #eyecatcher .content > img {
           width: 1400px;
-          top: -72%; } }
+          top: -35%; } }
       @media (min-width: 992px) {
         #eyecatcher .content > img {
           width: 2220px;
+          top: -190px; } }
+      @media (min-width: 1700px) {
+        #eyecatcher .content > img {
+          width: 2520px;
+          top: -190px; } }
+      @media (min-width: 1980px) {
+        #eyecatcher .content > img {
+          width: 3220px;
           top: -190px; } }
     #eyecatcher .content h2 {
       font-size: 12px;
       font-style: italic;
       margin-bottom: 16px;
       font-weight: 100;
-      transition: font-size 1s; }
+      transition: font-size 1s;
+      transition: margin-top 1s; }
+      @media (min-width: 768px) {
+        #eyecatcher .content h2 {
+          margin-top: 198px; } }
       @media (min-width: 992px) {
         #eyecatcher .content h2 {
           font-size: 20px;
@@ -1091,9 +1103,15 @@ footer {
       @media (min-width: 992px) {
         #eyecatcher .content i {
           display: inherit; } }
+    @media (min-width: 768px) {
+      #eyecatcher .content {
+        height: 520px; } }
     @media (min-width: 992px) {
       #eyecatcher .content {
         height: 822px; } }
+  @media (min-width: 768px) {
+    #eyecatcher {
+      height: 520px; } }
   @media (min-width: 992px) {
     #eyecatcher {
       height: 822px; } }
@@ -1185,6 +1203,9 @@ footer {
           transform: translate(-50%);
           left: 67%;
           top: -1%; } }
+      @media (min-width: 1700px) {
+        #firstSection article img:nth-child(5) {
+          left: 59%; } }
   #firstSection > :nth-child(1) {
     background: #242468; }
   #firstSection > :nth-child(2) {
@@ -1196,7 +1217,7 @@ footer {
       padding: 120px 15px; }
       #firstSection article:hover img:nth-child(5) {
         opacity: .6;
-        left: 63%;
+        left: 61%;
         width: 1210px; } }
 
 #secondSection .content {
