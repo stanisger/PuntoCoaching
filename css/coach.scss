@@ -1,30 +1,7 @@
-#eyecatcherCoach{
-	clear: both;
-	height: 264px;
-	.content{
-		height: 264px;
-		color: white;
-		text-align: center;
-		padding:  58px 0;
-		@include contenImg;
-		@include wrapp;
-		div.degrade{
-			top: 0;
-			left: 0;
-			position: absolute;
-			z-index: -1;
-			width: 100%;
-			height: 100%;
-			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
-			background: -moz-linear-gradient(top,  rgba(0,0,0,0) 22%, rgba(0,0,0,0.52) 87%, rgba(0,0,0,0.62) 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to bottom,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 ); /* IE6-9 */
+#eyecatcher{
+	.four{
 
-
-		}
-		>img{
+		img{
 			    width: 844px;
 			    position: absolute;
 			    transform: translatex(-45%);
@@ -32,36 +9,32 @@
 			    top: -5%;
 			    z-index: -2;
 		}
+		@media (min-width:400px){
+			img{
+    			width: 1044px;
+    			position: absolute;
+    			transform: translatex(-90%);			}
+		}
 		
-		h1{
-            font-family: $font2;
-            font-size: 26px;
-            font-weight: $RSemiBold;
+		@media (min-width:780px){
+			img{
+				width: 1920px;
+				top: -70px;
+				transform: translatex(-90%);
+			}
 		}
-		h3{
-             font-size: 26px;
-             font-family: $font2;
-             font-weight: 100;
-             width: 100%;
-             margin-bottom: 6px;
-             // @include centerAbsolute2;
-             // line-height: 17px;
+	
+		@media (min-width:1300px){
+			img{
+				width: 1920px;
+				transform: translatex(-90%);
+				top: -150px;
+	
+			}
 		}
-		p{
-			font-size: 14px;
-			font-weight: 300;
-			bottom: 58px;
-			width: 210px;
-			line-height: 18px;
-			left: 0;
-			right: 0;
-		   @include centerAbsolute2;
-		}
-		// p{
-			
-		// 	bottom: -90px;
-		// }
+
 	}
+
 }
 #resumeCoach{
 	padding: 36px 0 0;
@@ -79,6 +52,12 @@
 				color: $purpleTitle;
 				margin-bottom: 27px;
 				text-align: center;
+				@media (min-width:750px){
+					font-size: 26px;
+					br{
+						display: none;
+					}
+				}
 				strong{
 					font-weight: $semiBold;
 				}
@@ -89,6 +68,9 @@
 				margin-bottom: 27px;
 				color: $purpleTitle;
 				line-height: 27px;
+				@media (min-width:750px){
+					text-align: center;
+				}
 			}
 			p{
 				font-size: 14px;
@@ -96,6 +78,9 @@
 				color: $negro;
 				margin-bottom: 27px;
 				line-height: 20px;
+				@media (min-width:750px){
+					text-align: center;
+				}
 			}
 			ul {
 				    list-style: none;
@@ -121,9 +106,16 @@
 			padding: 0 18px 18px;
 			width:  100%;
 			@include flexFlow;
+			@media (min-width:750px){
+				width: 70%;
+				margin:auto;
+			}
 			.ifongrafia{
 				width: 50%;
 				@include flexFlow;
+				@media (min-width:750px){
+					width: 33.3%;
+					}
 				i{
 					width: 20%;
 					color: $purple1;

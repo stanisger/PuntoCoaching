@@ -78,6 +78,9 @@ background: $purple3;
 			padding: 27px 18px 0;
 			color: white;
 			text-align: center;
+			@media (min-width:750px){
+				width: 24%;
+				}
 			.content{
 				min-height: 135px;
 				i{
@@ -110,10 +113,15 @@ background: $purple3;
 		}
 		article:nth-child(1) .content{
 		    	border-bottom: 1px solid rgba($blanco, .5);
-		    	
+		    	@media (min-width:750px){
+		    		border-bottom: 0px solid rgba($blanco, .5);
+				}
 		    }
 		article:nth-child(3) .content{
 		    	border-bottom: 1px solid rgba($blanco, .5);
+		    	@media (min-width:750px){
+		    		border-bottom: 0px solid rgba($blanco, .5);
+				}
 	
 		    }    
 	}
