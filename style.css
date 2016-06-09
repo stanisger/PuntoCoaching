@@ -1772,6 +1772,9 @@ footer {
       padding: 27px 18px 0;
       color: white;
       text-align: center; }
+      @media (min-width: 750px) {
+        #Info > .content article {
+          width: 24%; } }
       #Info > .content article .content {
         min-height: 135px; }
         #Info > .content article .content i {
@@ -1793,8 +1796,14 @@ footer {
       margin: 13px 0; }
     #Info > .content article:nth-child(1) .content {
       border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+      @media (min-width: 750px) {
+        #Info > .content article:nth-child(1) .content {
+          border-bottom: 0px solid rgba(255, 255, 255, 0.5); } }
     #Info > .content article:nth-child(3) .content {
       border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+      @media (min-width: 750px) {
+        #Info > .content article:nth-child(3) .content {
+          border-bottom: 0px solid rgba(255, 255, 255, 0.5); } }
 
 #resume {
   padding: 36px 0 0;
@@ -2756,66 +2765,28 @@ iframe {
     #calendarIn > .content article:nth-child(odd) {
       background: #f4f4f4; }
 
-#eyecatcherCoach {
-  clear: both;
-  height: 264px; }
-  #eyecatcherCoach .content {
-    height: 264px;
-    color: white;
-    text-align: center;
-    padding: 58px 0;
-    overflow: hidden;
+#eyecatcher .four img {
+  width: 844px;
+  position: absolute;
+  transform: translatex(-45%);
+  left: 93%;
+  top: -5%;
+  z-index: -2; }
+@media (min-width: 400px) {
+  #eyecatcher .four img {
+    width: 1044px;
     position: absolute;
-    width: 100%;
-    max-width: 1442px;
-    margin-left: auto;
-    margin-right: auto; }
-    #eyecatcherCoach .content div.degrade {
-      top: 0;
-      left: 0;
-      position: absolute;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
-      background: -moz-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
-      /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
-      /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, transparent 22%, rgba(0, 0, 0, 0.52) 87%, rgba(0, 0, 0, 0.62) 100%);
-      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 );
-      /* IE6-9 */ }
-    #eyecatcherCoach .content > img {
-      width: 844px;
-      position: absolute;
-      transform: translatex(-45%);
-      left: 93%;
-      top: -5%;
-      z-index: -2; }
-    #eyecatcherCoach .content h1 {
-      font-family: "Raleway";
-      font-size: 26px;
-      font-weight: 600; }
-    #eyecatcherCoach .content h3 {
-      font-size: 26px;
-      font-family: "Raleway";
-      font-weight: 100;
-      width: 100%;
-      margin-bottom: 6px; }
-    #eyecatcherCoach .content p {
-      font-size: 14px;
-      font-weight: 300;
-      bottom: 58px;
-      width: 210px;
-      line-height: 18px;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      position: absolute;
-      left: 0;
-      right: 0; }
+    transform: translatex(-90%); } }
+@media (min-width: 780px) {
+  #eyecatcher .four img {
+    width: 1920px;
+    top: -70px;
+    transform: translatex(-90%); } }
+@media (min-width: 1300px) {
+  #eyecatcher .four img {
+    width: 1920px;
+    transform: translatex(-90%);
+    top: -150px; } }
 
 #resumeCoach {
   padding: 36px 0 0;
@@ -2830,6 +2801,11 @@ iframe {
       color: #2b1f6d;
       margin-bottom: 27px;
       text-align: center; }
+      @media (min-width: 750px) {
+        #resumeCoach .content article:nth-child(1) h2 {
+          font-size: 26px; }
+          #resumeCoach .content article:nth-child(1) h2 br {
+            display: none; } }
       #resumeCoach .content article:nth-child(1) h2 strong {
         font-weight: 600; }
     #resumeCoach .content article:nth-child(1) h3 {
@@ -2838,12 +2814,18 @@ iframe {
       margin-bottom: 27px;
       color: #2b1f6d;
       line-height: 27px; }
+      @media (min-width: 750px) {
+        #resumeCoach .content article:nth-child(1) h3 {
+          text-align: center; } }
     #resumeCoach .content article:nth-child(1) p {
       font-size: 14px;
       font-weight: 400;
       color: #000000;
       margin-bottom: 27px;
       line-height: 20px; }
+      @media (min-width: 750px) {
+        #resumeCoach .content article:nth-child(1) p {
+          text-align: center; } }
     #resumeCoach .content article:nth-child(1) ul {
       list-style: none;
       margin-bottom: 36px; }
@@ -2867,6 +2849,10 @@ iframe {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+    @media (min-width: 750px) {
+      #resumeCoach .content article:nth-child(2) {
+        width: 70%;
+        margin: auto; } }
     #resumeCoach .content article:nth-child(2) .ifongrafia {
       width: 50%;
       -webkit-flex-flow: row wrap;
@@ -2876,6 +2862,9 @@ iframe {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
+      @media (min-width: 750px) {
+        #resumeCoach .content article:nth-child(2) .ifongrafia {
+          width: 33.3%; } }
       #resumeCoach .content article:nth-child(2) .ifongrafia i {
         width: 20%;
         color: #62269e;
