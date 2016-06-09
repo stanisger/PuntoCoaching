@@ -542,7 +542,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 		}
 	 		h3{
 			    font-size: 16px;
-			    font-weight: 100;
+			    font-weight: 100; 
 			    line-height: 23px;
 			    margin-bottom: 19px;
 	 		}
@@ -559,12 +559,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			 		}
               }
               @media (min-width:992px) {
+              	padding: 75px 64px;
               	h2{
               		font-size: 60px;
+              		margin-bottom: 36px;
 		         }
 		         h3{
 		         	font-size: 22px;
+		         	margin-bottom: 36px;
+		         	line-height: 35px;
 		          }
+		          p{
+			 			font-size: 17px;
+					    margin-bottom: 58px;
+					    line-height: 27px;
+					    font-weight: 100;
+
+			 		}
+			 		 p:last-child{
+			 			text-align: left;
+			 			height: 51px;
+			 			button{
+						    width: 225px;
+						    border-radius: 30px;
+						    font-size: 18px;
+						    padding: 13px 18px;
+						  }  
+
+			 		}
+              	}
+              	@media (min-width:1140px) {
+                      padding: 75px 165px 75px 64px;
               	}
 	 	}
 	 	article:nth-child(2){
@@ -591,8 +616,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 }
 }
 #fourSection{
-	margin-bottom: 36px;
 	.content{
+		padding-bottom: 36px;
 		>p{
 			width: 100%;
 			text-align: center; 
@@ -612,7 +637,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 			}
 	 			p:nth-child(2){
 	 				font-size: 17px;
-	 				color: $purple2;
+	 				color: #444545;
 	 				font-weight: $light;
 	 			}
 	 			p:nth-child(3){
@@ -675,7 +700,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 				}
 	 			}
 	 		}
-	 	}
+		 	 @media (min-width: 998px) {
+		 	 	article:nth-child(1){
+		 	 		width: 35%;
+			 	 	h3{
+			 	 		text-align: left;
+			 	 		font-size: 50px;
+			 	 	}
+			 	 	p:nth-child(2){
+		              text-align: left;
+		              font-size: 28px; 
+			 	 	}
+		 	 	}
+		 	 	article:nth-child(2){
+		 	 		width: 65%;
+		 	 	}
+		 	 	>p.btnContent{
+		 	 		text-align: left;
+		 	 		button{
+		 	 			width: 225px;
+					    border-radius: 30px;
+					    font-size: 18px;
+					    padding: 13px 18px;
+		 	 		}
+		 	 	}
+
+		 	 }
+	 	  @media (min-width: 998px) {
+	 	  	width: 1140px;
+	 	  	margin: 0 auto;
+	     	padding: 107px 0;
+	 	  	
+	 	  }
+	   }
+	   @media (min-width: 998px) {
+	   }
 	}
 
 
