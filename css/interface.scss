@@ -313,8 +313,6 @@ footer{
 						font-size: 27px;
 						margin-bottom: 51px;
 						margin-top: 70px;
-
-
 						}
 					}
 					p{
@@ -387,15 +385,25 @@ footer{
 		 		li{
 			 		@media (min-width:750px){
 			 			display: inline-block;
+			 			span{
+			 				opacity: 0.5 !important;
+			 			}
 			 		}
 		 			a{
 		 				color: white;
 		 				text-decoration: underline !important;
-		 				opacity: .5;
+		 				opacity: .7;
 		 				font-size: 12px;
-		 				letter-spacing: 1px;
+		 				letter-spacing: .3px;
 		 				transition: opacity .4s;
 		 				font-weight: 300;
+		 				@media (min-width:750px){
+		 				text-decoration: none !important;
+		 				}
+		 				@media (min-width:850px){
+		 					font-size: 14px;
+		 					opacity: .7;
+		 				}
 		 				&:hover{
 		 					opacity: 1;
 		 				}
@@ -433,7 +441,7 @@ footer{
 				 	font-weight: 300;
 				 	color: rgba($blanco, .7);
 				 	line-height: 22px;
-				 	@media (min-width:750px){
+				 	@media (min-width:850px){
 				 		font-size: 14px;
 				 	}
 				 	img{
@@ -446,15 +454,21 @@ footer{
 				 }
 				 li:nth-child(1){
 				 	float: left;
-				 	@media (min-width:780px){
+				 	width: 100%;
+				 	@media (min-width:750px){
 				 		float: right;
+				 		width:50px;
 				 	}
 				 }
 				 li:nth-child(2){
 				 	@media (min-width:750px){
 				 	margin-top: 20px;
+    				padding-right: 0px;
+    				}
+    				@media (min-width:850px){
     				padding-right: 30px;
     				}
+
 				 }
 				 
 			 }

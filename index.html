@@ -171,7 +171,12 @@ soluciones que permitan el crecimiento,
           <i class="fa fa-calendar" aria-hidden="true"></i>
           <h4>CALENDARIO</h4>
         </div>  
-          <div class="slideCalendar">
+  
+        <a id="scrollUp" href="#">up</a>
+        <a id="scrollDown" href="#">down</a>
+        <div id="wrapper" class="slideCalendar">
+         <div id="content" style="overflow:auto;
+    height: 500px;">
              <a href="#" class="element">
               <div class="head">
                 <i></i>
@@ -261,6 +266,9 @@ soluciones que permitan el crecimiento,
               </div>  
              </a>
             </div>
+
+          </div>
+            
              <div class="degradate"></div>
         </article>
     </div>
@@ -394,5 +402,49 @@ soluciones que permitan el crecimiento,
   	    $( this ).children(".deg").toggleClass("rotate180");
   	    //$( this ).toggleClass( "highlight" );	       
   });
+</script>
+
+<script>  
+var step = 25;
+var scrolling = false;
+
+// Wire up events for the 'scrollUp' link:
+$("#scrollUp").bind("click", function(event) {
+    event.preventDefault();
+    // Animates the scrollTop property by the specified
+    // step.
+    $("#content").animate({
+        scrollTop: "-=" + step + "px"
+    });
+}).bind("mouseover", function(event) {
+    scrolling = true;
+    scrollContent("up");
+}).bind("mouseout", function(event) {
+    scrolling = false;
+});
+
+
+$("#scrollDown").bind("click", function(event) {
+    event.preventDefault();
+    $("#content").animate({
+        scrollTop: "+=" + step + "px"
+    });
+}).bind("mouseover", function(event) {
+    scrolling = true;
+    scrollContent("down");
+}).bind("mouseout", function(event) {
+    scrolling = false;
+});
+
+function scrollContent(direction) {
+    var amount = (direction === "up" ? "-=1px" : "+=1px");
+    $("#content").animate({
+        scrollTop: amount
+    }, 1, function() {
+        if (scrolling) {
+            scrollContent(direction);
+        }
+    });
+}
 </script>
 </html>

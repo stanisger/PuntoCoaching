@@ -1032,15 +1032,24 @@ footer {
           width: 50%; } }
       @media (min-width: 750px) {
         footer .content:nth-child(2) article ul li {
-          display: inline-block; } }
+          display: inline-block; }
+          footer .content:nth-child(2) article ul li span {
+            opacity: 0.5 !important; } }
       footer .content:nth-child(2) article ul li a {
         color: white;
         text-decoration: underline !important;
-        opacity: .5;
+        opacity: .7;
         font-size: 12px;
-        letter-spacing: 1px;
+        letter-spacing: .3px;
         transition: opacity .4s;
         font-weight: 300; }
+        @media (min-width: 750px) {
+          footer .content:nth-child(2) article ul li a {
+            text-decoration: none !important; } }
+        @media (min-width: 850px) {
+          footer .content:nth-child(2) article ul li a {
+            font-size: 14px;
+            opacity: .7; } }
         footer .content:nth-child(2) article ul li a:hover {
           opacity: 1; }
       footer .content:nth-child(2) article ul li span {
@@ -1070,7 +1079,7 @@ footer {
         font-weight: 300;
         color: rgba(255, 255, 255, 0.7);
         line-height: 22px; }
-        @media (min-width: 750px) {
+        @media (min-width: 850px) {
           footer .content:nth-child(2) article ul:nth-child(2) li {
             font-size: 14px; } }
         footer .content:nth-child(2) article ul:nth-child(2) li img {
@@ -1080,13 +1089,18 @@ footer {
             footer .content:nth-child(2) article ul:nth-child(2) li img {
               width: 52px; } }
       footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(1) {
-        float: left; }
-        @media (min-width: 780px) {
+        float: left;
+        width: 100%; }
+        @media (min-width: 750px) {
           footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(1) {
-            float: right; } }
+            float: right;
+            width: 50px; } }
       @media (min-width: 750px) {
         footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(2) {
           margin-top: 20px;
+          padding-right: 0px; } }
+      @media (min-width: 850px) {
+        footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(2) {
           padding-right: 30px; } }
 
 #eyecatcher {
@@ -1458,12 +1472,12 @@ footer {
               font-size: 20px; }
             #secondSection .content article:nth-child(2) > div:nth-child(1) h4 {
               font-size: 20px; } }
-      #secondSection .content article:nth-child(2) > div:nth-child(2) {
+      #secondSection .content article:nth-child(2) div.slideCalendar {
         height: 367px;
         clear: both;
         width: 100%;
         overflow: auto; }
-        #secondSection .content article:nth-child(2) > div:nth-child(2) a.element {
+        #secondSection .content article:nth-child(2) div.slideCalendar a.element {
           border-top: 1px transparent solid;
           border-bottom: 1px transparent solid;
           padding: 18px 36px;
@@ -1478,45 +1492,45 @@ footer {
           font-size: 12px;
           font-weight: 600;
           transition: background .4s; }
-          #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .head {
+          #secondSection .content article:nth-child(2) div.slideCalendar a.element .head {
             width: 30%;
             border-right: 1px solid rgba(98, 38, 158, 0.2);
             padding-right: 50px; }
             @media (min-width: 768px) {
-              #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .head {
+              #secondSection .content article:nth-child(2) div.slideCalendar a.element .head {
                 width: 35%; } }
-          #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .text {
+          #secondSection .content article:nth-child(2) div.slideCalendar a.element .text {
             width: 70%;
             padding: 0 52px 0 20px; }
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .text h1 {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element .text h1 {
               font-size: 15px;
               font-size: 14;
               font-weight: 400; }
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .text h3 {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element .text h3 {
               font-size: 15px;
               font-weight: 400; }
             @media (min-width: 370px) {
-              #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .text {
+              #secondSection .content article:nth-child(2) div.slideCalendar a.element .text {
                 padding-left: 10%; } }
             @media (min-width: 768px) {
-              #secondSection .content article:nth-child(2) > div:nth-child(2) a.element .text {
+              #secondSection .content article:nth-child(2) div.slideCalendar a.element .text {
                 width: 65%; } }
-          #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover {
+          #secondSection .content article:nth-child(2) div.slideCalendar a.element:hover {
             border-top: 1px solid rgba(255, 255, 255, 0.5);
             border-bottom: 1px solid rgba(255, 255, 255, 0.5);
             background: #352364;
             color: #ffffff; }
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover .head {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element:hover .head {
               border-right: 1px solid rgba(255, 255, 255, 0.2); }
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover h1, #secondSection .content article:nth-child(2) > div:nth-child(2) a.element:hover h2 {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element:hover h1, #secondSection .content article:nth-child(2) div.slideCalendar a.element:hover h2 {
               color: white; }
           @media (min-width: 768px) {
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element {
               padding: 18px 36px 18px 56px; } }
           @media (min-width: 992px) {
-            #secondSection .content article:nth-child(2) > div:nth-child(2) a.element {
+            #secondSection .content article:nth-child(2) div.slideCalendar a.element {
               padding: 18px 36px 18px 120px; } }
-        #secondSection .content article:nth-child(2) > div:nth-child(2) a:last-child {
+        #secondSection .content article:nth-child(2) div.slideCalendar a:last-child {
           margin-bottom: 90px; }
       #secondSection .content article:nth-child(2) .degradate {
         height: 110px;
@@ -1540,7 +1554,7 @@ footer {
           background: transparent; }
           #secondSection .content article:nth-child(2) .degradate {
             display: none; }
-          #secondSection .content article:nth-child(2) > div:nth-child(2) {
+          #secondSection .content article:nth-child(2) .slideCalendar {
             height: 445px; } }
       @media (min-width: 992px) {
         #secondSection .content article:nth-child(2) {
