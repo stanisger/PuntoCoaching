@@ -276,6 +276,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		@include flexFlow;
 		max-width: 1140px;
 		margin: 0 auto; 
+		position: relative;
 		article{
 		  width: 100%;
 		  @media (min-width:768px) {
@@ -371,7 +372,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		article:nth-child(2){
 			padding: 32px 0 0;
 			background: $gris;
-            position: relative; 
+            position: relative;
+
 			>div:nth-child(1){
 				padding: 0 32px;
 				margin-bottom: 21px;
@@ -508,6 +510,73 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 		   }   
 		}
+		div:nth-child(3){
+			height: 116px;
+			width: 80px;
+			right: 0;
+			bottom: 0;
+			background: $purple2;
+			position: absolute;
+			a{
+				width: 100%;
+				display: block;
+				height: 40%;
+				padding: 0 34px;
+				i{
+					color: white;
+				}
+			}
+			a:nth-child(1){
+
+				margin-bottom: 23px;
+				i{
+				-ms-transform: rotate(-90deg);
+			      -webkit-transform: rotate(-90deg);
+			      transform: rotate(-90deg);
+			      font-weight: bold;
+			      }
+			}
+			a:nth-child(2){
+	
+				i{
+				-ms-transform: rotate(-90deg);
+			      -webkit-transform: rotate(-90deg);
+			      transform: rotate(-90deg);
+			      font-weight: bold;
+			      }
+			}
+		}
+		// > a.btn-carousel{
+  //           	position: absolute;
+  //           	width: 58px;
+  //           	height: 58px;
+  //           	display: none;
+  //           	background: $purple2;
+  //           	color: white;
+  //           	 @media (min-width:768px) {
+  //           	 	display: inherit;
+  //           	 }
+  //           } 
+  //           a.btn-carousel:nth-child(3){
+  //           	right: 0;
+  //           	bottom: 36px;
+  //           	i{
+  //       		 -ms-transform: rotate(-90deg);
+		// 	      -webkit-transform: rotate(-90deg);
+		// 	      transform: rotate(-90deg);
+		// 	      font-weight: bold;
+  //           	}
+  //           }
+  //           a.btn-carousel:nth-child(4){
+  //           	right: 0;
+  //           	bottom: 0px;
+  //           	i{
+  //       		 -ms-transform: rotate(-180deg);
+		// 	      -webkit-transform: rotate(-180deg);
+		// 	      transform: rotate(-180deg);
+		// 	      font-weight: bold;
+  //           	}
+  //           }
 	}
 
 }

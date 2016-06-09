@@ -274,7 +274,6 @@ header{
 		}
 	}
 }
-
 footer{
 
 	color: $blanco;
@@ -290,7 +289,7 @@ footer{
 				width: 1140px;
 				padding: 0 18px	;
 				margin: auto;
-			}
+			} 
 			ul{
 				@include cero;
 				@media (min-width: 750px){
@@ -314,6 +313,8 @@ footer{
 						font-size: 27px;
 						margin-bottom: 51px;
 						margin-top: 70px;
+
+
 						}
 					}
 					p{
@@ -388,30 +389,15 @@ footer{
 		 		li{
 			 		@media (min-width:750px){
 			 			display: inline-block;
-			 			span{
-			 				opacity: 0.5 !important;
-			 			}
 			 		}
 		 			a{
 		 				color: white;
-<<<<<<< HEAD
 		 				
 		 				opacity: .5;
-=======
-		 				text-decoration: underline !important;
-		 				opacity: .7;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 		 				font-size: 12px;
-		 				letter-spacing: .3px;
+		 				letter-spacing: 1px;
 		 				transition: opacity .4s;
 		 				font-weight: 300;
-		 				@media (min-width:750px){
-		 				text-decoration: none !important;
-		 				}
-		 				@media (min-width:850px){
-		 					font-size: 14px;
-		 					opacity: .7;
-		 				}
 		 				&:hover{
 		 					opacity: 1;
 		 				}
@@ -449,7 +435,6 @@ footer{
 				 	font-weight: 300;
 				 	color: rgba($blanco, .7);
 				 	line-height: 22px;
-<<<<<<< HEAD
 				 	br{
 				 		display: inherit;
 				 	}
@@ -458,10 +443,6 @@ footer{
 				 		br{
 				 			display: none;
 				 		}
-=======
-				 	@media (min-width:850px){
-				 		font-size: 14px;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 				 	}
 				 	img{
 				 		width: 62px;
@@ -472,26 +453,29 @@ footer{
 				 	}
 				 }
 				 li:nth-child(1){
-				 	@media (min-width:750px){
+				 	float: inherit;
+				 	@media (min-width:780px){
 				 		float: right;
-				 		width:50px;
 				 	}
-				 }º
+				 }
 				 li:nth-child(2){
 				 	@media (min-width:750px){
 				 	margin-top: 20px;
     				padding-right: 7px;
     				}
-    				@media (min-width:850px){
-    				padding-right: 30px;
-    				}
-
 				 }
 				 
 			 }
 		 }
 	}
 }
+
+
+
+
+
+
+
 
 
 

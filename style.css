@@ -1035,28 +1035,14 @@ footer {
           width: 50%; } }
       @media (min-width: 750px) {
         footer .content:nth-child(2) article ul li {
-          display: inline-block; }
-          footer .content:nth-child(2) article ul li span {
-            opacity: 0.5 !important; } }
+          display: inline-block; } }
       footer .content:nth-child(2) article ul li a {
         color: white;
-<<<<<<< HEAD
         opacity: .5;
-=======
-        text-decoration: underline !important;
-        opacity: .7;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
         font-size: 12px;
-        letter-spacing: .3px;
+        letter-spacing: 1px;
         transition: opacity .4s;
         font-weight: 300; }
-        @media (min-width: 750px) {
-          footer .content:nth-child(2) article ul li a {
-            text-decoration: none !important; } }
-        @media (min-width: 850px) {
-          footer .content:nth-child(2) article ul li a {
-            font-size: 14px;
-            opacity: .7; } }
         footer .content:nth-child(2) article ul li a:hover {
           opacity: 1; }
       footer .content:nth-child(2) article ul li span {
@@ -1086,13 +1072,9 @@ footer {
         font-weight: 300;
         color: rgba(255, 255, 255, 0.7);
         line-height: 22px; }
-<<<<<<< HEAD
         footer .content:nth-child(2) article ul:nth-child(2) li br {
           display: inherit; }
         @media (min-width: 750px) {
-=======
-        @media (min-width: 850px) {
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
           footer .content:nth-child(2) article ul:nth-child(2) li {
             font-size: 12px; }
             footer .content:nth-child(2) article ul:nth-child(2) li br {
@@ -1104,28 +1086,14 @@ footer {
             footer .content:nth-child(2) article ul:nth-child(2) li img {
               width: 52px; } }
       footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(1) {
-<<<<<<< HEAD
         float: inherit; }
         @media (min-width: 780px) {
-=======
-        float: left;
-        width: 100%; }
-        @media (min-width: 750px) {
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
           footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(1) {
-            float: right;
-            width: 50px; } }
+            float: right; } }
       @media (min-width: 750px) {
         footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(2) {
           margin-top: 20px;
-<<<<<<< HEAD
           padding-right: 7px; } }
-=======
-          padding-right: 0px; } }
-      @media (min-width: 850px) {
-        footer .content:nth-child(2) article ul:nth-child(2) li:nth-child(2) {
-          padding-right: 30px; } }
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 
 #eyecatcher {
   clear: both;
@@ -1388,7 +1356,8 @@ footer {
     display: -ms-flexbox;
     display: flex;
     max-width: 1140px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
     #secondSection .content article {
       width: 100%; }
       @media (min-width: 768px) {
@@ -1585,6 +1554,32 @@ footer {
           padding-top: 130px;
           position: absolute;
           right: 0; } }
+    #secondSection .content div:nth-child(3) {
+      height: 116px;
+      width: 80px;
+      right: 0;
+      bottom: 0;
+      background: #352364;
+      position: absolute; }
+      #secondSection .content div:nth-child(3) a {
+        width: 100%;
+        display: block;
+        height: 40%;
+        padding: 0 34px; }
+        #secondSection .content div:nth-child(3) a i {
+          color: white; }
+      #secondSection .content div:nth-child(3) a:nth-child(1) {
+        margin-bottom: 23px; }
+        #secondSection .content div:nth-child(3) a:nth-child(1) i {
+          -ms-transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          font-weight: bold; }
+      #secondSection .content div:nth-child(3) a:nth-child(2) i {
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        font-weight: bold; }
 
 #treeSection {
   width: 100%; }
