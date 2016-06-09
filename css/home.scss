@@ -13,7 +13,7 @@
 			left: 0;
 			position: absolute;
 			z-index: -1;
-			width: 100%;
+			width: 100%; 	
 			height: 100%;
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+100&0+39,0+39,0.58+97 */
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+87,000000+100&0+22,0.62+100 */
@@ -520,6 +520,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 		padding: 36px 17px 36px 17px;
 	 		color: white;
 	 		width: 100%;
+	 		@include order(1);
 	 		h4, h2{
 	 			text-align: center;
 	 		}
@@ -550,21 +551,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	 			font-weight: $normal;
 	 			margin-bottom: 27px;
 	 		}
+	 		@media (min-width:768px) {
+                  width: 50%;
+	 			  @include order(2);
+                   h4, h2{
+			 			text-align: left;
+			 		}
+              }
+              @media (min-width:992px) {
+              	h2{
+              		font-size: 60px;
+		         }
+		         h3{
+		         	font-size: 22px;
+		          }
+              	}
 	 	}
 	 	article:nth-child(2){
              width: 100%;
              height: 261px;
-             background: url(assets/img/bgCoach.jpg);
+             background-repeat: no-repeat;
+             background: url(assets/img/bgCoach.jpg) center 0px;
+             @include order(2);
              @include cover ;
+             @media (min-width:380px) {
+                  height: 300px;
+              }
+	              @media (min-width:768px) {
+	                  width: 50%;
+	                  height: auto;
+	                  @include order(1);
+	              }
+		              @media (min-width:992px) {
 
-    //          img{
-    //          	width: 440px;
-    //          	transform: translate(-50%, 30%);
-				// left: 50%;
-				// top: 50%;
-    //          	 @include imgCenter;
-    //          }
+		              }
+
 	 	}
+
 	 }
 }
 #fourSection{
