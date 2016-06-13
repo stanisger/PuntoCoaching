@@ -35,7 +35,7 @@
 
 
  
-var step = 25;
+var step = 320;
 var scrolling = false;
 
 // Wire up events for the 'scrollUp' link:
@@ -76,3 +76,47 @@ function scrollContent(direction) {
         }
     });
 }
+
+
+
+    var stepLeft = 25;
+    var scrollingLeft = false;
+
+    // Wire up events for the 'scrollUp' link:
+    $("#scrollLeft").bind("click", function(event) {
+        event.preventDefault();
+        // Animates the scrollTop property by the specified
+        // step.
+        $("#content3").animate({
+            scrollLeft: "-=" + stepLeft + "px"
+        });
+    }).bind("mouseover", function(event) {
+        scrollingLeft = true;
+        scrollContent("left");
+    }).bind("mouseout", function(event) {
+        scrollingLeft = false;
+    });
+
+
+    $("#scrollRight").bind("click", function(event) {
+        event.preventDefault();
+        $("#content3").animate({
+            scrollLeft: "+=" + stepLeft + "px"
+        });
+    }).bind("mouseover", function(event) {
+        scrollingLeft = true;
+        scrollContent("right");
+    }).bind("mouseout", function(event) {
+        scrollingLeft = false;
+    });
+
+    function scrollContent(direction) {
+        var amount = (direction === "left" ? "-=6px" : "+=6px");
+        $("#content3").animate({
+            scrollLeft: amount
+        }, 1, function() {
+            if (scrollingLeft) {
+                scrollContent(direction);
+            }
+        });
+    }
