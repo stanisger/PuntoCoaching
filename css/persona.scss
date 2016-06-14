@@ -1,15 +1,25 @@
 #eyecatcherIn{
 	clear: both;
 	height: 264px;
+	@media (min-width:992px){
+
+			height: 471px;
+		}
+
 	.content{
 		height: 264px;
 		color: white;
 		text-align: center;
 		padding:  58px 0;
+		width: 100%;
 		@include contenImg;
-		@include wrapp;
+		@media (min-width:992px){
+			padding-top:160px;
+			height: 471px;
+		}
 		div.degrade{
 			top: 0;
+			opacity: .6;
 			left: 0;
 			position: absolute;
 			z-index: -1;
@@ -21,16 +31,33 @@
 			background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* Chrome10-25,Safari5.1-6 */
 			background: linear-gradient(to bottom,  rgba(0,0,0,0) 22%,rgba(0,0,0,0.52) 87%,rgba(0,0,0,0.62) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 ); /* IE6-9 */
-
+            @media (min-width:992px){
+            	display: none;
+            }
 
 		}
 		>img{
-			width: 454px;
+			width: 513px;
 		    position: absolute;
 		    transform: translatex(-45%);
 		    left: 50%;
-		    top: -33%;
+		    top: 0;
 		    z-index: -2;
+		    transition: width .4s;
+		    @media (min-width:420px){
+		    	top: -10%;
+		        width: 854px;
+		        transform: translatex(-48%);
+		    }
+		      @media (min-width:768px){
+                    top: -20%;
+				    width: 1000px;
+				    transform: translatex(-50%);
+		      }
+		      @media (min-width:992px){
+		      	      top: -40%;
+                     width: 2000px;
+		      }
 		}
 		h2{
           font-size: 12px;
@@ -61,6 +88,37 @@
 			right: 0;
 		   @include centerAbsolute2;
 		}
+
+			@media (min-width: 992px){
+				h1, h3{
+				text-align: left;
+				padding-left:20px;
+				margin:0;
+
+				}
+
+				h1{
+					font-size: 40px;
+				}
+				h3{
+					font-size: 24px;
+					line-height: 36px;
+					margin:0;
+					width: 564px;
+					margin-top:20px;
+					position: relative !important;
+				}
+			}
+			@media (min-width:992px){
+				h1{font-size:47px;}
+				h3{margin-top:37px;}
+
+			}
+			@media (min-width: 1400px){
+				h1,h3{
+					padding-left: 0px;
+				}	
+			}
 		// p{
 			
 		// 	bottom: -90px;
