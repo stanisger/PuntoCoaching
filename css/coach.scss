@@ -13,7 +13,8 @@
 			img{
     			width: 1044px;
     			position: absolute;
-    			transform: translatex(-90%);			}
+    			transform: translatex(-90%);
+    		}
 		}
 		
 		@media (min-width:780px){
@@ -39,10 +40,16 @@
 #resumeCoach{
 	padding: 36px 0 0;
 	background: #f6f6f6;
+	@media (min-width:992px){
+		padding: 100px 0 0;
+	}
 
 	.content{
 		article:nth-child(1){
 			padding: 0 18px 0;
+			@media (min-width:992px){
+				padding: 0 18px 60px;
+			}
 			img{
 				width: 100%;
 			}
@@ -52,11 +59,16 @@
 				color: $purpleTitle;
 				margin-bottom: 27px;
 				text-align: center;
+				font-family: 'Raleway';
 				@media (min-width:750px){
 					font-size: 26px;
 					br{
 						display: none;
 					}
+				}
+				@media (min-width:992px){
+					font-size: 40px;
+					margin-bottom: 20px;
 				}
 				strong{
 					font-weight: $semiBold;
@@ -71,6 +83,10 @@
 				@media (min-width:750px){
 					text-align: center;
 				}
+				@media (min-width:992px){
+					font-size: 22px;
+					margin-bottom: 40px;
+				}
 			}
 			p{
 				font-size: 14px;
@@ -80,6 +96,13 @@
 				line-height: 20px;
 				@media (min-width:750px){
 					text-align: center;
+				}
+				@media(min-width:992px){
+					font-size: 17px;
+					line-height: 25px;
+					width: 80%;
+					margin:auto;
+
 				}
 			}
 			ul {
@@ -110,6 +133,11 @@
 				width: 70%;
 				margin:auto;
 			}
+			@media (min-width:992px){
+				padding: 0 18px 70px;
+				width: 750px;
+
+			}
 			.ifongrafia{
 				width: 50%;
 				@include flexFlow;
@@ -128,6 +156,9 @@
 					font-size: 13px;
 					color: $purpleTitle;
 					padding: 15px 9px 0;
+					@media (min-width:992px){
+						font-size: 15px;
+					}
 				}
 			}
 
@@ -138,20 +169,66 @@
 
 #modulos{
 	padding: 18px;
+	@media (min-width:750px){
+		@include flexFlow;
+		padding:0px;
+	}
 	article:nth-child(1){
 		position: relative;
 		height: 230px;
 		overflow: hidden; 
+		@media (min-width:750px){
+			width: 40%;
+			height: 487px;
+		}
+		@media (min-width:992px){
+			width: 50%;
+			height: 657px;
+		}
+		@media (min-width:1400px){
+			width: 50%;
+			height: 850px;
+		}		
 		img{
-             position: absolute;
+            position: absolute;
 		    width: 348px;
 		    transform: translate(-50%, -50%);
 		    left: 50%;
 		    top: 33%;
+		    @media (min-width:400px){
+		    	top:49%;
+		    	width: 500px;
+		    }
+		    @media (min-width:750px){
+    			position: relative;
+    			transform: translate(-60%, -50%);
+    			top: 200px;
+    			min-width:700px;
+		    }
+		    @media (min-width:992px){
+			    transform: translate(-50%, -50%);
+			    min-width:1000px;
+			    top: 250px;
+			}
+			@media (min-width:1200px){
+    			min-width: 947px;
+    			top: 425px;
+			}	
+			@media (min-width:1500px){
+				left: 473px;
+			}
 		}
 	}
 	article:nth-child(2){
 		margin: 18px 0;
+		@media (min-width:750px){
+			width: 50%;
+			display:none;
+		}
+
+		.modulos{
+
+		}	
 		h2{
 			color: $purpleTitle;
 			font-family: $font2;
@@ -211,4 +288,128 @@
 			}
 		}
 	}
+	
+	article:nth-child(3){
+		display:none;
+		width: 60%;
+		padding-bottom:40px;
+
+		@media (min-width:750px){
+			display:block;
+		}
+		@media (min-width:992px){
+			display:block;
+			width: 50%;
+
+		}
+		h2{
+			font-size: 26px;
+			color:$purple3;
+			font-family: 'Raleway';
+			font-weight: 600;
+			padding-left: 22px;
+    		padding-top: 60px;
+    		@media (min-width:992px){
+    			font-size: 40px;
+    		}
+    		@media (min-width:992px){
+    			padding-top: 80px;
+    		}
+    		@media (min-width:1400px){
+    			padding-left: 67px;
+    			font-weight: 700;
+    			padding-top: 100px;
+
+
+    		}
+
+		}
+		ul{
+				width: 90%;
+	    		margin: auto;
+	    		@media (min-width:750px){
+					padding: 20px 0 10px; 
+				}
+				@media (min-width:992px){
+					padding:80px 0;
+				}
+				@media (min-width:1200px){
+					padding:40px 0;
+					padding-left: 22px;
+					margin: inherit;				
+
+				}
+				@media (min-width:1400px){
+				padding: 70px 0 37px;
+				padding-left: 67px;
+    			width: 610px;
+    			}
+
+				li{
+					margin-bottom: 20px;
+					@media (min-width: 1200px){
+						font-size: 17.7px;
+    					line-height: 30px;
+					}
+					strong{
+						font-size:19px;
+						line-height: 30px;
+						letter-spacing: .3px;
+						@media (min-width:1400px){
+							line-height: 61px;
+							font-size: 23px;
+						}
+						}
+					span{
+						font-weight: 300;
+    					line-height: 24px;		
+    					color: #ddd;
+
+						@media (min-width:992px){
+							font-weight: 100;
+    						line-height: 12px;
+    						font-size: 16px;
+						}
+					}
+
+					.numeros{
+						font-size: 33px !important;
+						color:$purpleLight;
+						opacity: 0.3;
+						float: left;
+						font-family: 'Raleway';
+						font-weight: 700;
+						margin:5px 25px 40px 0px;
+						@media (min-width:992px){
+							margin:5px 25px 70px 0px;
+
+						}
+						@media(min-width:1160px){
+							font-size: 36px !important;
+
+						}
+						@media (min-width:1400px){
+							margin: 22px 25px 91px 0px;
+						}
+					}
+				}
+			}
+
+			.btn-want{
+				text-align: left;
+				padding-left: 22px;
+				@media (min-width:1400px){
+    			padding-left: 67px;
+
+    			}
+				button{
+					font-size: 15.5px;
+					font-family: 'Raleway';
+    				
+
+				}
+			}
+		}
+
+
 }

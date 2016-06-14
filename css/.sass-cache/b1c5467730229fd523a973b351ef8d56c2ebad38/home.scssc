@@ -856,7 +856,7 @@ o:Sass::Tree::PropNode:@prop_syntax:new:@valueo: Sass::Script::Tree::Litera
 @linei:@importero: Sass::Importers::Filesystem:@real_root"0/Applications/MAMP/htdocs/PuntoCoaching/css:
 @root"0/Applications/MAMP/htdocs/PuntoCoaching/css:@same_name_warningso:Set:
 @hash{ :
-@file"home.scss:@end_poso;;i;i;i:
+@file":/Applications/MAMP/htdocs/PuntoCoaching/css/home.scss:@end_poso;;i;i;i:
 @name["
 clear:@name_source_rangeo;	;o;;i;i;@;@; o;;i;i;[ ;@:
 @tabsi ;o;	;@;@;@; o;;i;i;i:@value_source_rangeo;	;o;;i;i;@;@; @o;	;
