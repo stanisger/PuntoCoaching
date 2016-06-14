@@ -2,7 +2,6 @@
 	clear: both;
 	height: 264px;
 	@media (min-width:992px){
-
 			height: 471px;
 		}
 
@@ -14,8 +13,16 @@
 		width: 100%;
 		@include contenImg;
 		@media (min-width:992px){
-			padding-top:160px;
+			padding-top:96px;
 			height: 471px;
+		}
+		.text{
+			max-width: 1400px;
+			width: 100%;
+			margin: 0 auto;
+			@media (min-width:992px){
+				padding: 0 18px;
+			}
 		}
 		div.degrade{
 			top: 0;
@@ -55,7 +62,7 @@
 				    transform: translatex(-50%);
 		      }
 		      @media (min-width:992px){
-		      	      top: -40%;
+		      	     top: -40%;
                      width: 2000px;
 		      }
 		}
@@ -67,16 +74,10 @@
 		h1{
             font-family: $font2;
             font-size: 26px;
-            font-weight: $RSemiBold;
-		}
-		h3{
-             font-size: 26px;
-             font-family: $font2;
-             font-weight: $light;
-             width: 100%;
-             margin-bottom: 1px;
-             // @include centerAbsolute2;
-             // line-height: 17px;
+            font-weight: 100;
+            strong{
+            	font-weight: 700;
+            }
 		}
 		p{
 			font-size: 14px;
@@ -90,30 +91,32 @@
 		}
 
 			@media (min-width: 992px){
-				h1, h3{
+				h1, h3, p, h2{
 				text-align: left;
-				padding-left:20px;
 				margin:0;
 
 				}
+				h2{
+					font-size: 16px; 
+					margin-bottom: 41px;
+				}
 
 				h1{
-					font-size: 40px;
+					font-size: 50px; 
+					margin-bottom: 41px;
+					br{
+						display: none;
+					}
 				}
-				h3{
+	
+				p{
 					font-size: 24px;
-					line-height: 36px;
-					margin:0;
-					width: 564px;
-					margin-top:20px;
-					position: relative !important;
+					position: inherit;
+					line-height: 38px;
+					width: 580px;
 				}
 			}
-			@media (min-width:992px){
-				h1{font-size:47px;}
-				h3{margin-top:37px;}
 
-			}
 			@media (min-width: 1400px){
 				h1,h3{
 					padding-left: 0px;
@@ -189,21 +192,32 @@ background: $purple3;
 	padding: 36px 0 0;
 	background: #f6f6f6;
 	border-bottom: 3px solid $purple1;
+	@media (min-width:768px){
+		padding: 0;
+		border-bottom:none; 
+	}
 	.content{
+		@include flexFlow;
+			
 		article{
 			padding: 0 18px 18px;
-			img{
-				width: 100%;
-			}
+			width: 100%;
 			h2{
 				font-size: 24px;
 				font-weight: $light;
 				color: $purple2;
 				margin-bottom: 27px;
-							text-align: center;
+				text-align: center;
 				strong{
 					font-weight: $semiBold;
 				}
+					@media (min-width:768px){
+						text-align: left;
+					}
+					@media (min-width:992px){
+                         font-size: 50px;
+                         margin-bottom: 57px
+					}
 			}
 			h3{
 				font-size: 18px;
@@ -211,6 +225,10 @@ background: $purple3;
 				margin-bottom: 27px;
 				color: $purple2;
 				line-height: 27px;
+				@media (min-width:992px){
+                         font-size: 22px;
+                         margin-bottom: 63px;
+					}
 			}
 			p{
 				font-size: 14px;
@@ -218,25 +236,83 @@ background: $purple3;
 				color: $negro;
 				margin-bottom: 27px;
 				line-height: 20px;
+				width: 100%;
+				max-width: 678px;
+				@media (min-width:992px){
+                         font-size: 18px;
+                         line-height: 30px;
+                         margin-bottom: 63px;
+					    }
 			}
 			ul {
 				    list-style: none;
 				    margin-bottom: 36px;
+				    width: 100%;
+				    max-width: 678px;
 				}
 
 				li { 
 				    padding-left: 1em; 
 				    text-indent: -.7em;
 				    margin-bottom: 10px;
+				    @media (min-width:992px){
+                         font-size: 18px;
+                         line-height: 22px;
+                         height: 45px;
+					    }
 				}
 
 				li:before {
 				    content: "■  ";
-				    color: $purple2; /* or whatever color you prefer */
+				    color: $purple1; /* or whatever color you prefer */
 				}
 				li:after {
 					margin-left: 9px;
 				}
+
+
+				p:last-child{
+					@media (min-width:768px){
+						text-align: left;
+					}
+					@media (min-width:992px){
+						button{
+                                 width: 225px;
+							    border-radius: 30px;
+							    font-size: 18px;
+							    padding: 13px 18px;
+						}
+					}
+				}
+
+		}
+		article:nth-child(1){
+			height: 228px;
+			margin: 0 18px 18px;
+			background-position: center !important;
+			@include cover;
+		}
+		@media (min-width:768px){
+
+			article:nth-child(1){
+				width: 60%;
+				padding: 0;
+				margin: 0 ;
+				height: auto;
+			}
+			article:nth-child(2){
+				width: 40%;
+				padding: 36px 18px;
+			}
+		}
+		@media (min-width:992px){
+			article:nth-child(1){
+				width: 50%;
+			} 
+			article:nth-child(2){
+				width: 50%;
+				padding: 114px 45px 50px;
+			}
 
 		}
 
