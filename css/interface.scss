@@ -393,14 +393,9 @@ footer{
 			 			}
 			 		}
 		 			a{
-		 				color: white;
-<<<<<<< HEAD
-		 				
-		 				opacity: .5;
-=======
+		 				color: white;		 				
 		 				text-decoration: underline !important;
 		 				opacity: .7;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 		 				font-size: 12px;
 		 				letter-spacing: .3px;
 		 				transition: opacity .4s;
@@ -449,7 +444,6 @@ footer{
 				 	font-weight: 300;
 				 	color: rgba($blanco, .7);
 				 	line-height: 22px;
-<<<<<<< HEAD
 				 	br{
 				 		display: inherit;
 				 	}
@@ -458,10 +452,9 @@ footer{
 				 		br{
 				 			display: none;
 				 		}
-=======
+				 	}
 				 	@media (min-width:850px){
 				 		font-size: 14px;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 				 	}
 				 	img{
 				 		width: 62px;
@@ -472,14 +465,12 @@ footer{
 				 	}
 				 }
 				 li:nth-child(1){
-<<<<<<< HEAD
 				 	float: inherit;
 				 	@media (min-width:780px){
-=======
 				 	float: left;
 				 	width: 100%;
+				 	}
 				 	@media (min-width:750px){
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
 				 		float: right;
 				 		width:50px;
 				 	}
@@ -487,18 +478,10 @@ footer{
 				 li:nth-child(2){
 				 	@media (min-width:750px){
 				 	margin-top: 20px;
-<<<<<<< HEAD
     				padding-right: 7px;
-=======
-    				padding-right: 0px;
-    				}
-    				@media (min-width:850px){
-    				padding-right: 30px;
->>>>>>> 7cecfdad55055c4b130dd3b33b548c71078c0f8d
-    				}
 
+					 }
 				 }
-				 
 			 }
 		 }
 	}
