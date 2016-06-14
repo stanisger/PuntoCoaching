@@ -311,7 +311,9 @@ header{
 	}
 }
 
-footer{ 
+
+
+footer{
 
 	color: $blanco;
 	.content:nth-child(1){
@@ -323,10 +325,10 @@ footer{
 		}
 		article:nth-child(1){
 			@media (min-width:1200px){
-				width: 1140px;
+				width: 1440px;
 				padding: 0 18px	;
 				margin: auto;
-			}
+			} 
 			ul{
 				@include cero;
 				@media (min-width: 750px){
@@ -350,6 +352,8 @@ footer{
 						font-size: 27px;
 						margin-bottom: 51px;
 						margin-top: 70px;
+
+
 						}
 					}
 					p{
@@ -410,7 +414,7 @@ footer{
 		 article{
 		 	@include flexFlow;
 		 	@media (min-width:1200px){
-		 		width: 1140px;
+		 		width: 1440px;
 		 		padding: 0 18px;
     			margin: auto;
 		 	}
@@ -424,25 +428,15 @@ footer{
 		 		li{
 			 		@media (min-width:750px){
 			 			display: inline-block;
-			 			span{
-			 				opacity: 0.5 !important;
-			 			}
 			 		}
 		 			a{
-		 				color: white;		 				
-		 				text-decoration: underline !important;
-		 				opacity: .7;
+		 				color: white;
+		 				
+		 				opacity: .5;
 		 				font-size: 12px;
-		 				letter-spacing: .3px;
+		 				letter-spacing: 1px;
 		 				transition: opacity .4s;
 		 				font-weight: 300;
-		 				@media (min-width:750px){
-		 				text-decoration: none !important;
-		 				}
-		 				@media (min-width:850px){
-		 					font-size: 14px;
-		 					opacity: .7;
-		 				}
 		 				&:hover{
 		 					opacity: 1;
 		 				}
@@ -489,9 +483,6 @@ footer{
 				 			display: none;
 				 		}
 				 	}
-				 	@media (min-width:850px){
-				 		font-size: 14px;
-				 	}
 				 	img{
 				 		width: 62px;
 				 		margin-bottom: 9px;
@@ -503,25 +494,28 @@ footer{
 				 li:nth-child(1){
 				 	float: inherit;
 				 	@media (min-width:780px){
-				 	float: left;
-				 	width: 100%;
-				 	}
-				 	@media (min-width:750px){
 				 		float: right;
-				 		width:50px;
 				 	}
 				 }
 				 li:nth-child(2){
 				 	@media (min-width:750px){
 				 	margin-top: 20px;
     				padding-right: 7px;
-
-					 }
+    				}
 				 }
+				 
 			 }
 		 }
 	}
 }
+
+
+
+
+
+
+
+
 
 
 
