@@ -60,6 +60,7 @@
 }
 
 #titleIn{
+	display: inherit;
 	.content{
 		background: $purple3;
 		text-align: center; 
@@ -74,11 +75,141 @@
 	   	}
 	  } 	
    }
+   @media (min-width: 768px){
+       display: none;
+   }
+}
+div.calendar{
+     width: 100%;
+     display: none;
+     @media (min-width: 768px){
+       display: inherit;
+   }
+     article{
+     	width: 100%;
+     	.content{
+     		width: 100%;
+     		max-width: 1440px;
+     		margin: 0 auto;
+     		padding: 39px 5px;
+     		@include flexFlow; 
+     		span{
+     			width: 16.666%;
+     			text-align: center;
+     			font-size: 14px;
+     			@media (min-width: 992px){
+				       font-size: 17px;
+				       // letter-spacing: -1px;
+				   }
+     		}
+     		span:nth-child(1){
+     			font-weight: bold;
+     		}
+     		span:nth-child(2){
+     			font-weight: bold;
+     			color: $purple2;
+     		}
+     		span:nth-child(3),span:nth-child(4),
+     		span:nth-child(5)
+
+     		{
+     			font-weight: 400;
+     		}
+     		span:nth-child(6){
+     			a{
+     				color: $purple2;
+     				font-weight: 600;
+     				&:hover{
+     					color: $purpleLight;
+     				}
+     			}
+     		}
+
+     	}
+     }   
+ 		article:last-child{
+ 			border-bottom: 1px solid rgba( 0, 0, 0, .1);
+ 		}
+
+     article:nth-child(odd){
+     	background: #f4f4f4;
+     }
+}
+#InfoCalendar{
+background: $purple3;
+	>.content{
+		@include flexFlow;
+		padding: 0 0 16px;
+		@media (min-width:1400px){
+			width: 1400px;
+    		margin: auto;
+		}
+
+
+	    article:nth-child(1) .content{
+	    	border-left:none;
+	    }
+		article{
+			display: none;
+			padding: 27px 0 0;
+			color: white;
+			text-align: center;
+
+
+			@media (min-width:768px){
+				width: 16.666%;
+				display: inherit;
+				}
+			.content{
+				border-left: 1px solid rgba(  255, 255, 255, .3);
+				min-height: 125px;
+				width: 100%;
+				padding-top: 17px;
+				i{
+					font-size: 29px;
+					color: rgba($blanco, .3);
+					margin-bottom: 7px;
+					display: block;
+				}
+				h4{
+					font-size: 14px;
+					font-weight: $normal;
+					margin-bottom: 14px;
+					@media (min-width:1400px){
+						font-size: 18px;
+    					font-weight: 600;
+    					margin-bottom: 19px;
+					}
+				}
+				p{
+				   font-size: 13px;
+				   font-weight:  $light;	
+				   letter-spacing: 1px;
+				   @media (min-width:1400px){
+				   	font-size: 16px;
+    				font-weight: 300;
+    				padding-bottom: 30px;
+				   }
+				}
+		    }
+
+		}
+		// span:nth-child(2){
+		// 	height: 130px;
+		// 	margin-13px: 
+		// }
+
+	    
+	}
 }
 #calendarIn{
 	height: 404px;
 	border-bottom: 4px solid $purple1;
     position: relative;
+    display: inherit;
+    @media (min-width:768px){
+    	display: none;
+    }
 	.degradate{
 	  	height: 150px;
 	  	position: absolute;

@@ -122,11 +122,12 @@ change "brown" to something of your choosing
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
    @media (min-width:992px){
-    border-radius:30px;
+    border-radius:40px;
     padding:14px 40px;
   }
   @media (min-width:1400px){
     padding: 16px 58px;
+    border-radius:40px;
   }
 
 }
@@ -182,7 +183,7 @@ change "brown" to something of your choosing
 
 .btn-1c:after {
   width: 0;
-  border-radius: 20px;
+  border-radius: 30px;
   height: 103%;
   top: 50%;
   left: 50%;

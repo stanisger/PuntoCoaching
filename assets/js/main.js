@@ -19,10 +19,15 @@
   //   }
   // );
 
-    $(".drop").click(function (){
-    	$(this).parent('li').children(".dropdown-menu").toggleClass('show');
-    });
+  $(".drop").click(function (){
+    $(".drop").not(this).parent('li').children(".dropdown-menu").removeClass('show');
+    $(this).parent('li').children(".dropdown-menu").toggleClass('show');
+});
 
+  $(".dropHover").hover(function (){
+    $(".drop").not(this).parent('li').children(".dropdown-menu").removeClass('show');
+    // $(this).parent('li').children(".dropdown-menu").toggleClass('show');
+});
 
 
 
