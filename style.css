@@ -417,7 +417,7 @@ change "brown" to something of your choosing
   border: 2px solid #62269e;
   text-transform: uppercase;
   font-size: 12px;
-  color: #62269e;
+  color: #220e5c;
   background: none;
   border-radius: 20px;
   cursor: pointer;
@@ -2041,7 +2041,8 @@ footer {
         text-align: left;
         margin: 0; }
       #eyecatcherIn .content h2 {
-        font-size: 16px;
+        font-size: 15px;
+        letter-spacing: 3px;
         margin-bottom: 41px; }
       #eyecatcherIn .content h1 {
         font-size: 50px;
@@ -2067,10 +2068,11 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 25px 0 16px; }
+    padding: 8px 0 8px; }
     @media (min-width: 1400px) {
       #Info > .content {
-        width: 1400px;
+        width: 916px;
+        padding: 36px 0 30px;
         margin: auto; } }
     #Info > .content span.line:nth-child(4) {
       display: none; }
@@ -2078,13 +2080,10 @@ footer {
         #Info > .content span.line:nth-child(4) {
           display: block; } }
     #Info > .content article {
-      width: 49%;
-      padding: 27px 18px 0;
+      width: 33%;
+      padding: 13px 18px 0;
       color: white;
       text-align: center; }
-      @media (min-width: 750px) {
-        #Info > .content article {
-          width: 24%; } }
       #Info > .content article .content {
         min-height: 135px; }
         #Info > .content article .content i {
@@ -2098,7 +2097,7 @@ footer {
           margin-bottom: 14px; }
           @media (min-width: 1400px) {
             #Info > .content article .content h4 {
-              font-size: 20px;
+              font-size: 21px;
               font-weight: 600;
               margin-bottom: 19px; } }
         #Info > .content article .content p {
@@ -2107,26 +2106,12 @@ footer {
           letter-spacing: 1px; }
           @media (min-width: 1400px) {
             #Info > .content article .content p {
-              font-size: 16px;
+              font-size: 17px;
               font-weight: 300;
               padding-bottom: 30px; } }
-    #Info > .content span.line {
-      border-left: 1px solid rgba(255, 255, 255, 0.5);
-      height: 130px;
-      margin: 13px 0; }
-      @media (min-width: 1400px) {
-        #Info > .content span.line {
-          margin: 35px 0; } }
-    #Info > .content article:nth-child(1) .content {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
-      @media (min-width: 750px) {
-        #Info > .content article:nth-child(1) .content {
-          border-bottom: 0px solid rgba(255, 255, 255, 0.5); } }
-    #Info > .content article:nth-child(3) .content {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
-      @media (min-width: 750px) {
-        #Info > .content article:nth-child(3) .content {
-          border-bottom: 0px solid rgba(255, 255, 255, 0.5); } }
+    #Info > .content article:nth-child(2) {
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+      border-right: 1px solid rgba(255, 255, 255, 0.2); }
 
 #resume {
   padding: 36px 0 0;
@@ -2160,8 +2145,8 @@ footer {
             text-align: left; } }
         @media (min-width: 992px) {
           #resume .content article h2 {
-            font-size: 50px;
-            margin-bottom: 57px; } }
+            font-size: 45px;
+            margin-bottom: 40px; } }
       #resume .content article h3 {
         font-size: 18px;
         font-weight: 300;
@@ -2187,7 +2172,7 @@ footer {
             margin-bottom: 63px; } }
       #resume .content article ul {
         list-style: none;
-        margin-bottom: 36px;
+        margin-bottom: 50	px;
         width: 100%;
         max-width: 678px; }
       #resume .content article li {
@@ -2236,7 +2221,7 @@ footer {
         width: 50%; }
       #resume .content article:nth-child(2) {
         width: 50%;
-        padding: 114px 45px 50px; } }
+        padding: 114px 45px 50px 73px; } }
 
 #eyecatcher .two {
   height: 264px; }
@@ -2952,7 +2937,7 @@ iframe {
     padding: 25px 0 16px; }
     @media (min-width: 1400px) {
       #InfoEmpresa > .content {
-        width: 1400px;
+        width: 1200px;
         margin: auto; } }
     #InfoEmpresa > .content span.line:nth-child(4) {
       display: none; }
@@ -3069,7 +3054,7 @@ iframe {
           width: 1440px; } }
       #resumeEmpresa article:nth-child(2) .contentAside aside {
         position: relative;
-        width: 33%;
+        width: 50%;
         padding: 0 18px 0 0; }
         #resumeEmpresa article:nth-child(2) .contentAside aside img {
           width: 100%;
@@ -3764,64 +3749,67 @@ div.calendar {
 .flaticon-arrows-3:before {
   content: "\f103"; }
 
-.flaticon-back:before {
+.flaticon-avatar:before {
   content: "\f104"; }
 
-.flaticon-bars:before {
+.flaticon-back:before {
   content: "\f105"; }
 
-.flaticon-business-presentation:before {
+.flaticon-bars:before {
   content: "\f106"; }
 
-.flaticon-check-box:before {
+.flaticon-business-presentation:before {
   content: "\f107"; }
 
-.flaticon-clock:before {
+.flaticon-check-box:before {
   content: "\f108"; }
 
-.flaticon-clock-circular-outline:before {
+.flaticon-clock:before {
   content: "\f109"; }
 
-.flaticon-close-button:before {
+.flaticon-clock-circular-outline:before {
   content: "\f10a"; }
 
-.flaticon-commenting:before {
+.flaticon-close-button:before {
   content: "\f10b"; }
 
-.flaticon-dialogue-balloon:before {
+.flaticon-commenting:before {
   content: "\f10c"; }
 
-.flaticon-envelope:before {
+.flaticon-dialogue-balloon:before {
   content: "\f10d"; }
 
-.flaticon-linkedin:before {
+.flaticon-envelope:before {
   content: "\f10e"; }
 
-.flaticon-mouse:before {
+.flaticon-linkedin:before {
   content: "\f10f"; }
 
-.flaticon-multiple-users-silhouette:before {
+.flaticon-mouse:before {
   content: "\f110"; }
 
-.flaticon-next:before {
+.flaticon-multiple-users-silhouette:before {
   content: "\f111"; }
 
-.flaticon-note:before {
+.flaticon-next:before {
   content: "\f112"; }
 
-.flaticon-patent:before {
+.flaticon-note:before {
   content: "\f113"; }
 
-.flaticon-social:before {
+.flaticon-patent:before {
   content: "\f114"; }
 
-.flaticon-time:before {
+.flaticon-social:before {
   content: "\f115"; }
 
-.flaticon-time-1:before {
+.flaticon-time:before {
   content: "\f116"; }
 
-.flaticon-tool:before {
+.flaticon-time-1:before {
   content: "\f117"; }
+
+.flaticon-tool:before {
+  content: "\f118"; }
 
 /*# sourceMappingURL=style.css.map */

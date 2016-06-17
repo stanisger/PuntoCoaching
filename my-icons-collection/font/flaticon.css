@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 16/06/2016 19:42
+  	Creation date: 16/06/2016 22:55
   	*/
 
 @font-face {
@@ -33,23 +33,24 @@ margin-left: 20px;
 .flaticon-arrows-1:before { content: "\f101"; }
 .flaticon-arrows-2:before { content: "\f102"; }
 .flaticon-arrows-3:before { content: "\f103"; }
-.flaticon-back:before { content: "\f104"; }
-.flaticon-bars:before { content: "\f105"; }
-.flaticon-business-presentation:before { content: "\f106"; }
-.flaticon-check-box:before { content: "\f107"; }
-.flaticon-clock:before { content: "\f108"; }
-.flaticon-clock-circular-outline:before { content: "\f109"; }
-.flaticon-close-button:before { content: "\f10a"; }
-.flaticon-commenting:before { content: "\f10b"; }
-.flaticon-dialogue-balloon:before { content: "\f10c"; }
-.flaticon-envelope:before { content: "\f10d"; }
-.flaticon-linkedin:before { content: "\f10e"; }
-.flaticon-mouse:before { content: "\f10f"; }
-.flaticon-multiple-users-silhouette:before { content: "\f110"; }
-.flaticon-next:before { content: "\f111"; }
-.flaticon-note:before { content: "\f112"; }
-.flaticon-patent:before { content: "\f113"; }
-.flaticon-social:before { content: "\f114"; }
-.flaticon-time:before { content: "\f115"; }
-.flaticon-time-1:before { content: "\f116"; }
-.flaticon-tool:before { content: "\f117"; }
+.flaticon-avatar:before { content: "\f104"; }
+.flaticon-back:before { content: "\f105"; }
+.flaticon-bars:before { content: "\f106"; }
+.flaticon-business-presentation:before { content: "\f107"; }
+.flaticon-check-box:before { content: "\f108"; }
+.flaticon-clock:before { content: "\f109"; }
+.flaticon-clock-circular-outline:before { content: "\f10a"; }
+.flaticon-close-button:before { content: "\f10b"; }
+.flaticon-commenting:before { content: "\f10c"; }
+.flaticon-dialogue-balloon:before { content: "\f10d"; }
+.flaticon-envelope:before { content: "\f10e"; }
+.flaticon-linkedin:before { content: "\f10f"; }
+.flaticon-mouse:before { content: "\f110"; }
+.flaticon-multiple-users-silhouette:before { content: "\f111"; }
+.flaticon-next:before { content: "\f112"; }
+.flaticon-note:before { content: "\f113"; }
+.flaticon-patent:before { content: "\f114"; }
+.flaticon-social:before { content: "\f115"; }
+.flaticon-time:before { content: "\f116"; }
+.flaticon-time-1:before { content: "\f117"; }
+.flaticon-tool:before { content: "\f118"; }
