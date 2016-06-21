@@ -355,6 +355,9 @@ td,
 th {
   padding: 0; }
 
+nav ul li.active {
+  background-color: transparent; }
+
 body {
   background: white;
   overflow-x: hidden;
